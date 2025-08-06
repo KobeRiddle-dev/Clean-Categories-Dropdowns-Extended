@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Clean Categories: Dropdowns *Extended*</name>
+	<author>Kobe Riddle, ferny</author>
+	<packageId>KobeRiddle.CategoriesDropdownsExtended</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Cedaro.Material.Submenu</packageId>
+			<displayName>Material Sub-Menu</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=3345696149</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<description>Condenses stuff into dropdowns (more).</description>
+	<loadAfter>
+		<li>Ludeon.Rimworld</li>
+		<li>Ludeon.Rimworld.Royalty</li>
+		<li>Ludeon.Rimworld.Ideology</li>
+		<li>Ludeon.Rimworld.Biotech</li>
+		<li>Ludeon.Rimworld.Anomaly</li>
+		<li>Ferny.ProgressionStorage</li>
+		<li>Ferny.CategoriesDropdowns</li>
+		<li>DankPyon.medieval.overhaul</li>
+		<li>OskarPotocki.VFE.Medieval2</li>
+		<li>Rebuild.Cotr.DoorsAndCorners</li>
+		<li>VanillaExpanded.VFEArchitect</li>
+		<li>zal.AnimalCages</li>
+		<li>Dubwise.DubsBadHygiene</li>
+		<li>VanillaExpanded.VfeFarming</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.SettlersModule</li>
+		<li>Sarg.AlphaAnimals</li>
+		<li>ScpChemfuel.Appliances</li>
+		<li>BiomesTeam.BiomesFossils</li>
+		<li>Det.EpochsIncense</li>
+		<li>adamas.HospitalityCasino</li>
+		<li>nightmare.museums</li>
+		<li>gy.ppExtend</li>
+		<li>VanillaExpanded.HelixienGas</li>
+		<li>VanillaExpanded.VfePower</li>
+		<li>VanillaExpanded.VfeSpacer</li>
+		<li>Rhiom.ConveyorBelts.1.02</li>
+		<li>van.DaCrypts</li>
+		<li>Det.EpochsPyrinth</li>
+		<li>VanillaExpanded.VfeCore</li>
+		<li>VanillaExpanded.temperature</li>
+		<li>zylle.clocks</li>
+		<li>sbz.neatstorage</li>
+		<li>adaptive.PrimitiveStorage</li>
+		<li>VanillaExpanded.VfeArt</li>
+		<li>sbz.CryogenicTank</li>
+	</loadAfter>
+</ModMetaData>
