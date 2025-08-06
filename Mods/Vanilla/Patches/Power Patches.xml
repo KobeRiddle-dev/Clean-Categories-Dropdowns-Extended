@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Conduits -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PowerConduit"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_Conduits</designatorDropdown>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="HiddenConduit"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_Conduits</designatorDropdown>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="WaterproofConduit"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_Conduits</designatorDropdown>
+        </value>
+    </Operation>
+
+
+    <!-- Generators -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="WoodFiredGenerator"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_WoodGenerators</designatorDropdown>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="ChemfuelPoweredGenerator"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_ChemfuelGenerators</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>
