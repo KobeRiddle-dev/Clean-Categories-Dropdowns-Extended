@@ -10,7 +10,7 @@
     </Operation>
 
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VFEArch_SingleDoor_Flipped"]/designatorDropDown</xpath>
+        <xpath>Defs/ThingDef[defName="VFEArch_SingleDoor_Flipped"]/designatorDropdown</xpath>
         <value>
             <designatorDropdown>Ferny_Doors</designatorDropdown>
         </value>
