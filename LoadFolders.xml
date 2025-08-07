@@ -7,8 +7,8 @@
 
         <li IfModActive="Rebuild.Cotr.DoorsAndCorners">Mod Patches/Rebuild Doors and Corners</li>
         <li IfModActive="VanillaExpanded.VFEArchitect">Mod Patches/VFE Architect</li>
-        <li IfModActiveAll="VanillaExpanded.VFEArchitect,Rebuild.Cotr.DoorsAndCorners">Mod Patches\Rebuild Doors and Corners + VFE Architect</li>
-        
+        <li IfModActiveAll="VanillaExpanded.VFEArchitect,Rebuild.Cotr.DoorsAndCorners">Mod Patches/Rebuild Doors and Corners + VFE Architect</li>
+
         <li IfModActive="Aelanna.TransparentSubstructure">Mod Patches/Transparent Substructure</li>
 
     </v1.6>
