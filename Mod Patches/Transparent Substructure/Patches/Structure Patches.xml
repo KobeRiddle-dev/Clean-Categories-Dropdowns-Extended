@@ -3,7 +3,7 @@
 
     <!-- Heavy Bridges -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/TerrainDef[defName="TransparentFoundation_HeavyBridge"]</xpath>
+        <xpath>Defs/TransparentSubstructure.BridgeTerrainDef[defName="TransparentFoundation_HeavyBridge"]</xpath>
         <value>
             <designatorDropdown>KobeRiddle_HeavyBridges</designatorDropdown>
         </value>
