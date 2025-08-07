@@ -16,7 +16,6 @@
         </value>
     </Operation>
 
-
     <!-- Fences -->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Fence"]/designatorDropDown</xpath>
