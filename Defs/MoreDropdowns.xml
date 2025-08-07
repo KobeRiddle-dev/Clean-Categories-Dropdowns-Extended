@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Structure -->
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_ClerestoryWalls</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_PrettyWalls</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_HeavyBridges</defName>
+    </DesignatorDropdownGroupDef>
+
+    <!-- Power -->
+    <DesignatorDropdownGroupDef>
+        <defName>Ferny_WindGenerators</defName>
+    </DesignatorDropdownGroupDef>
+
+</Defs>
