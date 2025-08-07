@@ -14,6 +14,10 @@
         <defName>KobeRiddle_HeavyBridges</defName>
     </DesignatorDropdownGroupDef>
 
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_Fences</defName>
+    </DesignatorDropdownGroupDef>
+
     <!-- Power -->
     <DesignatorDropdownGroupDef>
         <defName>Ferny_WindGenerators</defName>
