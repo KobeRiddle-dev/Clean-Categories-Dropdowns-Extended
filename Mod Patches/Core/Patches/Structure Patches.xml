@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-    <!-- Bridges -->
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/TerrainDef[defName="Bridge"]</xpath>
-        <value>
-            <designatorDropdown>Ferny_Bridges</designatorDropdown>
-        </value>
-    </Operation>
-
+    <!-- Door -->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Door"]</xpath>
         <value>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Heavy Bridges -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="HeavyBridge"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_HeavyBridges</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>

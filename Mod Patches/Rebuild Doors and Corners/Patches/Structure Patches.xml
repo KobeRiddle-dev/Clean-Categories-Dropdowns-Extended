@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Doors -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="RB_DoubleDoor"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_Doors</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Clerestory Walls -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="RB_ClerestoryWall"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_ClerestoryWalls</designatorDropdown>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="RB_ReinforcedClerestoryWall"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_ClerestoryWalls</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Glass Walls -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="RB_GlassWall"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_GlassWalls</designatorDropdown>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="RB_ReinforcedGlassWall"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_GlassWalls</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Pretty/Ornate Walls -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="RB_OrnateWall"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_PrettyWalls</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VFEArch_SingleDoor"]/designatorDropDown</xpath>
+        <value>
+            <designatorDropdown>Ferny_Doors</designatorDropdown>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VFEArch_SingleDoor_Flipped"]/designatorDropDown</xpath>
+        <value>
+            <designatorDropdown>Ferny_Doors</designatorDropdown>
+        </value>
+    </Operation>
+</Patch>
