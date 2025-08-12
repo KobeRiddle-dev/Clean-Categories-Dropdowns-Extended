@@ -3,14 +3,7 @@
 
     <!-- Doors -->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VFEArch_SingleDoor"]/designatorDropdown</xpath>
-        <value>
-            <designatorDropdown>Ferny_Doors</designatorDropdown>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VFEArch_SingleDoor_Flipped"]/designatorDropdown</xpath>
+        <xpath>Defs/ThingDef[defName="VFEArch_SingleDoor" or defName="VFEArch_SingleDoor_Flipped"]/designatorDropdown</xpath>
         <value>
             <designatorDropdown>Ferny_Doors</designatorDropdown>
         </value>
@@ -18,42 +11,8 @@
 
     <!-- Fences -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="Fence"]</xpath>
-        <value>
-            <designatorDropdown>KobeRiddle_Fences</designatorDropdown>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="VFEArch_BrickFence"]</xpath>
-        <value>
-            <designatorDropdown>KobeRiddle_Fences</designatorDropdown>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="VFEArch_ChainlinkFence"]</xpath>
-        <value>
-            <designatorDropdown>KobeRiddle_Fences</designatorDropdown>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="VFEArch_InvisibleFence"]</xpath>
-        <value>
-            <designatorDropdown>KobeRiddle_Fences</designatorDropdown>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="VFEArch_LowFence"]</xpath>
-        <value>
-            <designatorDropdown>KobeRiddle_Fences</designatorDropdown>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="VFEArch_PicketFence"]</xpath>
+        <xpath>Defs/ThingDef[defName="Fence" or defName="VFEArch_BrickFence" or defName="VFEArch_ChainlinkFence" 
+            or defName="VFEArch_InvisibleFence" or defName="VFEArch_LowFence" or defName="VFEArch_PicketFence"]</xpath>
         <value>
             <designatorDropdown>KobeRiddle_Fences</designatorDropdown>
         </value>
