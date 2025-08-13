@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Power -->
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_WindGenerators</defName>
+    </DesignatorDropdownGroupDef>
+
+</Defs>
