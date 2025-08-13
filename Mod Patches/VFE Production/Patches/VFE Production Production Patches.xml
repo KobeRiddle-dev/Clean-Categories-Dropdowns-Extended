@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Smelters -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFE_FueledSmelter" or defName="ElectricSmelter"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Smelters</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Smithies -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFE_TableSmithyLarge"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Smithies</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Machining Tables -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="TableMachining" or defName="VFE_TableMachiningLarge"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_MachiningTables</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Stonecutting Tables -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="TableStonecutter" or defName="VFE_TableStonecutterElectric"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_StonecuttingTables</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Tailoring Benches -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFE_TableTailorLarge"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_TailoringBenches</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>

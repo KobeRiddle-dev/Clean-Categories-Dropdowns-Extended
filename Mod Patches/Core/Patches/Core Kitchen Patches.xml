@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="ButcherSpot" or defName="TableButcher"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_ButcheringBenches</designatorDropdown>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="FueledStove" or defName="ElectricStove"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Stoves</designatorDropdown>
+        </value>
+    </Operation>
+    
+</Patch>

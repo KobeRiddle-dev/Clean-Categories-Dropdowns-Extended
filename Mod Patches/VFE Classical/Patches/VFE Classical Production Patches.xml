@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="CraftingSpot" or defName="VFEC_CraftingBench"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_CraftingBenches</designatorDropdown>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEC_WoodFiredCrematorium" or defName="ElectricCrematorium"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Crematoriums</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>

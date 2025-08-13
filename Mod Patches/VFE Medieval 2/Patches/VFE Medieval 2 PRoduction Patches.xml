@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEM2_AlchemicalWorkbench" or defName="VFEM2_AlchemicalWorkbench_Electric"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_DraughtLabs</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Research Benches -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="SimpleResearchBench" or defName="HiTechResearchBench"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_ResearchBenches</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Smithies-->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="FueledSmithy" or defName="ElectricSmithy"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Smithies</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Tailoring benches -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="HandTailoringBench" or defName="ElectricTailoringBench"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_TailoringBenches</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>

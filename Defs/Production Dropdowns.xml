@@ -1,4 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_CraftingBenches</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_Crematoriums</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_DraughtLabs</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_FishTraps</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_MachiningTables</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_ResearchBenches</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_Smelters</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_Smithies</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_StonecuttingTables</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_TailoringBenches</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_WritingTables</defName>
+    </DesignatorDropdownGroupDef>
+
 </Defs>
