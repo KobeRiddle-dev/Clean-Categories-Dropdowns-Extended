@@ -4,15 +4,17 @@
         <li>Mod Patches/Core</li>
         <li IfModActive="Ludeon.Rimworld.Ideology">Mod Patches/Ideology</li>
 
+        <li IfModActive="WarlocksForge.FishTraps">Mod Patches/Fish Traps</li>
         <li IfModActive="Rebuild.Cotr.DoorsAndCorners">Mod Patches/Rebuild Doors and Corners</li>
+        <li IfModActive="PeteTimesSix.ResearchReinvented.SteppingStones">Mod Patches/Research Reinvented Stepping Stones</li>
+        <li IfModActive="Aelanna.TransparentSubstructure">Mod Patches/Transparent Substructure</li>
+        <li IfModActive="VanillaExpanded.VBooksE">Mod Patches/VE Books</li>
         <li IfModActive="VanillaExpanded.VFEArchitect">Mod Patches/VFE Architect</li>
-        <li IfModActiveAll="VanillaExpanded.VFEArchitect,Rebuild.Cotr.DoorsAndCorners">Mod Patches/Rebuild Doors and Corners + VFE Architect</li>
-
         <li IfModActive="OskarPotocki.VFE.Classical">Mod Patches/VFE Classical</li>
         <li IfModActive="OskarPotocki.VFE.Medieval2">Mod Patches/VFE Medieval 2</li>
+        <li IfModActive="VanillaExpanded.VFEProduction">Mod Patches/VFE Production</li>
 
-        <li IfModActive="Aelanna.TransparentSubstructure">Mod Patches/Transparent Substructure</li>
-
+        <li IfModActiveAll="VanillaExpanded.VFEArchitect,Rebuild.Cotr.DoorsAndCorners">Mod Patches/Rebuild Doors and Corners + VFE Architect</li>
 
     </v1.6>
 </loadFolders>

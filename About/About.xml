@@ -25,36 +25,17 @@
 		<li>Ludeon.Rimworld.Ideology</li>
 		<li>Ludeon.Rimworld.Biotech</li>
 		<li>Ludeon.Rimworld.Anomaly</li>
-		<li>Ferny.ProgressionStorage</li>
+
 		<li>Ferny.CategoriesDropdowns</li>
-		<li>DankPyon.medieval.overhaul</li>
-		<li>OskarPotocki.VFE.Medieval2</li>
-		<li>OskarPotocki.VFE.Classical</li>
+
+		<li>WarlocksForge.FishTraps</li>
 		<li>Rebuild.Cotr.DoorsAndCorners</li>
+		<li>PeteTimesSix.ResearchReinvented.SteppingStones</li>
+		<li>Aelanna.TransparentSubstructure</li>
+		<li>VanillaExpanded.VBooksE</li>
 		<li>VanillaExpanded.VFEArchitect</li>
-		<li>zal.AnimalCages</li>
-		<li>Dubwise.DubsBadHygiene</li>
-		<li>VanillaExpanded.VfeFarming</li>
-		<li>OskarPotocki.VanillaFactionsExpanded.SettlersModule</li>
-		<li>Sarg.AlphaAnimals</li>
-		<li>ScpChemfuel.Appliances</li>
-		<li>BiomesTeam.BiomesFossils</li>
-		<li>Det.EpochsIncense</li>
-		<li>adamas.HospitalityCasino</li>
-		<li>nightmare.museums</li>
-		<li>gy.ppExtend</li>
-		<li>VanillaExpanded.HelixienGas</li>
-		<li>VanillaExpanded.VfePower</li>
-		<li>VanillaExpanded.VfeSpacer</li>
-		<li>Rhiom.ConveyorBelts.1.02</li>
-		<li>van.DaCrypts</li>
-		<li>Det.EpochsPyrinth</li>
-		<li>VanillaExpanded.VfeCore</li>
-		<li>VanillaExpanded.temperature</li>
-		<li>zylle.clocks</li>
-		<li>sbz.neatstorage</li>
-		<li>adaptive.PrimitiveStorage</li>
-		<li>VanillaExpanded.VfeArt</li>
-		<li>sbz.CryogenicTank</li>
+		<li>OskarPotocki.VFE.Classical</li>
+		<li>OskarPotocki.VFE.Medieval2</li>
+		<li>VanillaExpanded.VFEProduction</li>
 	</loadAfter>
 </ModMetaData>
