@@ -39,11 +39,4 @@
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="ChemfuelPoweredGenerator"]</xpath>
-        <value>
-            <designatorDropdown>Ferny_WindGenerators</designatorDropdown>
-        </value>
-    </Operation>
-
 </Patch>
