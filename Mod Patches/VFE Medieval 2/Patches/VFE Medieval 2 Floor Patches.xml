@@ -9,13 +9,6 @@
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/VEF.Maps.ActiveTerrainDef[defName="VFEM2_Chemdrench"]</xpath>
-        <value>
-            <designatorDropdown>KobeRiddle_FloorsStraw</designatorDropdown>
-        </value>
-    </Operation>
-
     <!-- Heraldic Rugs -->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="VFEM2_HeraldicRugNarrow" or defName="VFEM2_HeraldicRugBroad" or defName="VFEM2_HeraldicRugGrand"]</xpath>
