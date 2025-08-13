@@ -2,14 +2,17 @@
     <v1.6>
         <li>/</li>
         <li>Mod Patches/Core</li>
-        <li IfModActive="Ludeon.Ideology">Mod Patches/Ideology</li>
-        <li IfModActive="Ludeon.Odyssey">Mod Patches/Odyssey</li>
+        <li IfModActive="Ludeon.Rimworld.Ideology">Mod Patches/Ideology</li>
 
         <li IfModActive="Rebuild.Cotr.DoorsAndCorners">Mod Patches/Rebuild Doors and Corners</li>
         <li IfModActive="VanillaExpanded.VFEArchitect">Mod Patches/VFE Architect</li>
         <li IfModActiveAll="VanillaExpanded.VFEArchitect,Rebuild.Cotr.DoorsAndCorners">Mod Patches/Rebuild Doors and Corners + VFE Architect</li>
 
+        <li IfModActive="OskarPotocki.VFE.Classical">Mod Patches/VFE Classical</li>
+        <li IfModActive="OskarPotocki.VFE.Medieval2">Mod Patches/VFE Medieval 2</li>
+
         <li IfModActive="Aelanna.TransparentSubstructure">Mod Patches/Transparent Substructure</li>
+
 
     </v1.6>
 </loadFolders>

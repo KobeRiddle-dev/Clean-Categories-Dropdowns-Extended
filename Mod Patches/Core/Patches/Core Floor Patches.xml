@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Carpets, Metal, Stone, and Wood will require a different approach, and a mod that allows for placing dropdowns inside of other dropdowns. -->
+
+    <!-- Concrete -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="Concrete" or defName="PavedTile"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_FloorsConcrete</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>

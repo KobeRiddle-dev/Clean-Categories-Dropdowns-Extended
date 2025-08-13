@@ -18,9 +18,84 @@
         <defName>KobeRiddle_Fences</defName>
     </DesignatorDropdownGroupDef>
 
+    <!-- Floors -->
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_FloorsWood</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_FloorsStone</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_FloorsConcrete</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_FloorsMetal</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_FloorsGround</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_FloorsAsphalt</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_FloorsStraw</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_FloorsSterile</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_FloorsSlab</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_FloorsCarpet</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_FloorsMatting</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_FloorsGlass</defName>
+    </DesignatorDropdownGroupDef>
+
+    <!-- Heraldic Rugs -->
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_FloorsHeraldicRugs</defName>
+    </DesignatorDropdownGroupDef>
+
+    <!-- Ideology Floor Coverings -->
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_FloorCoveringsAnimalist</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_FloorCoveringsMorbid</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_FloorCoveringsTotemic</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_FloorCoveringsSpikecore</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_FloorCoveringsRustic</defName>
+    </DesignatorDropdownGroupDef>
+
     <!-- Power -->
     <DesignatorDropdownGroupDef>
-        <defName>Ferny_WindGenerators</defName>
+        <defName>KobeRiddle_WindGenerators</defName>
     </DesignatorDropdownGroupDef>
 
 </Defs>

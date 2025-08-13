@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- Asphalt -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="VFEArch_Asphalt" or defName="VFEArch_PlayerBrokenAsphalt"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_FloorsAsphalt</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Ground -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="VFEArch_Grass" or defName="VFEArch_LawnPlot" or defName="VFEArch_Lawn" or defName="VFEArch_PlayerPackedDirt"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_FloorsAsphalt</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>

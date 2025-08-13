@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Floor Coverings -->
+
+    <!-- Animalist -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="AnimalistSlab_Medium" or defName="AnimalistSlab_Broad"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_FloorCoveringsAnimalist</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Morbid -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="MorbidSlab_Medium" or defName="MorbidSlab_Broad"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_FloorCoveringsMorbid</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Totemic -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="TotemicSlab_Medium" or defName="TotemicSlab_Broad"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_FloorCoveringsTotemic</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Spikecore -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="SpikecoreFloorStar_Medium" or defName="SpikecoreFloorStar_Broad"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_FloorCoveringsSpikecore</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Rustic -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="RusticRug_Medium" or defName="RusticRug_Broad"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_FloorCoveringsRustic</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>

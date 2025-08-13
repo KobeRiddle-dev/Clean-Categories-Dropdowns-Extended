@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Straw -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="StrawMatting" or defName="VFEM2_Chemdrench"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_FloorsStraw</designatorDropdown>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/VEF.Maps.ActiveTerrainDef[defName="VFEM2_Chemdrench"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_FloorsStraw</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Heraldic Rugs -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEM2_HeraldicRugNarrow" or defName="VFEM2_HeraldicRugBroad" or defName="VFEM2_HeraldicRugGrand"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_FloorsHeraldicRugs</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>
