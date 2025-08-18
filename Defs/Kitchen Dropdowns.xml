@@ -9,4 +9,8 @@
         <defName>KobeRiddle_Stoves</defName>
     </DesignatorDropdownGroupDef>
 
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_Brewers</defName>
+    </DesignatorDropdownGroupDef>
+
 </Defs>

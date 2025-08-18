@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Brewers -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName = "Brewery" or defName="VBE_AmbrandyDistillery" or defName="VBE_WhiskeyCask"
+            or defName="VBE_TequilaBarrel" or defName="VBE_VodkaDrum" or defName="VBE_GinStill"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Brewers</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>
