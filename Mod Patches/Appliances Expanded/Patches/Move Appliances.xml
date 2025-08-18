@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Kitchen things -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>Progression: Kitchen</mods>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="CE_ChemfuelPot" or defName="CA_ChemfuelStoveLarge" or defName="CE_ChemfuelStove"
+                or defName="CE_ChemfuelDeepFrier" or defName="CE_AirFryer" or defName="CE_ChemfuelGrill"]/designatorDropdown</xpath>
+            <value>
+                <designatorDropdown>Ferny_Kitchen</designatorDropdown>
+            </value>
+        </match>
+
+        <nomatch Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="CE_ChemfuelPot" or defName="CA_ChemfuelStoveLarge" or defName="CE_ChemfuelStove"
+                or defName="CE_ChemfuelDeepFrier" or defName="CE_AirFryer" or defName="CE_ChemfuelGrill"]/designatorDropdown</xpath>
+            <value>
+                <designatorDropdown>Production</designatorDropdown>
+            </value>
+        </nomatch>
+
+    </Operation>
+
+    <!-- Production Things -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="CE_FueledSmithyLarge" or CA_ChemfuelCrematorium or CA_ChemfuelSmithy or CA_ChemfuelSmelter]/designatorDropdown</xpath>
+        <value>
+            <designatorDropdown>Production</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Temperature -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="CAS_ChemfuelCooler" or CAS_ChemfuelHeater]/designatorDropdown</xpath>
+        <value>
+            <designatorDropdown>Temperature</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Lights -->
+     <Operation Class="PatchOperationFindMod">
+        <mods>Lighting Category</mods>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="CA_Sunlamp" or defName="CA_ChemfuelStandingLamp" or CA_ChemfuelFloodlight or CAS_ChemfuelWallLight]/designatorDropdown</xpath>
+            <value>
+                <designatorDropdown>Ferny_Lighting</designatorDropdown>
+            </value>
+        </match>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="CA_Sunlamp" or defName=""]/designatorDropdown</xpath>
+            <value>
+                <designatorDropdown>Furniture</designatorDropdown>
+            </value>
+        </match>
+
+    </Operation>
+
+    <!-- TODO: Figure out where to put SCP_ChemDrill -->
+    
+</Patch>

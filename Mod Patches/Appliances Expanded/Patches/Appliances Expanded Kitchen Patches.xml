@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Soup Pots -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VCE_ElectricPot"][not(designatorDropdown)]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_SoupPots</designatorDropdown>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="CE_ChemfuelPot"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_SoupPots</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Stoves -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="CA_ChemfuelStoveLarge" or defName="CE_ChemfuelStove"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Stoves</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Fryers -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VCE_DeepFrier"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Fryers</designatorDropdown>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="CE_ChemfuelDeepFrier" or defName="CE_AirFryer"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Fryers</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Grills -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VCE_Grill"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Grills</designatorDropdown>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="CE_ChemfuelGrill"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Grills</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>

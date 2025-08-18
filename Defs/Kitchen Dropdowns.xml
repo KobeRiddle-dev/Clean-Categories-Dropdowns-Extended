@@ -13,4 +13,16 @@
         <defName>KobeRiddle_Brewers</defName>
     </DesignatorDropdownGroupDef>
 
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_SoupPots</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_Grills</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_Fryers</defName>
+    </DesignatorDropdownGroupDef>
+
 </Defs>

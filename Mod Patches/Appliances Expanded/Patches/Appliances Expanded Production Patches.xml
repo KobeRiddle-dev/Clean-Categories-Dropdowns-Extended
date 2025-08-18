@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Smelters -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="ElectricSmelter"][not(designatorDropdown)]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Smelters</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Smithies -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="CE_FueledSmithyLarge"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Smithies</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Soup Pot -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VCE_ElectricPot"][not(designatorDropdown)]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_SoupPots</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Stew Pot -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VCE_StewPot"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_SoupPots</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>
