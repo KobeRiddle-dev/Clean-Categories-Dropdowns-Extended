@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
+    <!-- Drug labs -->
+     VFE_TableDrugLabElectric
+     <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="DrugLab"][not(designatorDropdown)]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_DrugLabs</designatorDropdown>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFE_TableDrugLabElectric"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_DrugLabs</designatorDropdown>
+        </value>
+    </Operation>
+
     <!-- Smelters -->
      <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="ElectricSmelter"][not(designatorDropdown)]</xpath>
