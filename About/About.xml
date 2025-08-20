@@ -27,6 +27,7 @@
 		<li>Ludeon.Rimworld.Anomaly</li>
 
 		<li>Ferny.CategoriesDropdowns</li>
+		<li>Ferny.NetworkCategory</li>
 
 		<li>WarlocksForge.FishTraps</li>
 		<li>Rebuild.Cotr.DoorsAndCorners</li>
@@ -36,6 +37,8 @@
 		<li>VanillaExpanded.VFEArchitect</li>
 		<li>OskarPotocki.VFE.Classical</li>
 		<li>OskarPotocki.VFE.Medieval2</li>
+		<li>VanillaExpanded.VBrewE</li>
+		<li>VanillaExpanded.VCookEStews</li>
 		<li>VanillaExpanded.VFEProduction</li>
 	</loadAfter>
 </ModMetaData>

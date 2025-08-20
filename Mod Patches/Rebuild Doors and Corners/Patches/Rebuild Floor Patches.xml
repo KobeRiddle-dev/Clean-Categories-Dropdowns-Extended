@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
     <!-- Sterile -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="SterileTile"]/designatorDropdown</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="SterileTile"]</xpath>
+            <value>
+                <designatorDropdown>KobeRiddle_FloorsSterile</designatorDropdown>
+            </value>
+        </nomatch>
+    </Operation>
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/TerrainDef[defName="SterileTile" or defName="RB_SterileGrateTile" or defName="RB_SterileStuddedTile"][not(designatorDropdown)]</xpath>
+        <xpath>Defs/TerrainDef[defName="RB_SterileGrateTile" or defName="RB_SterileStuddedTile"]</xpath>
         <value>
             <designatorDropdown>KobeRiddle_FloorsSterile</designatorDropdown>
         </value>

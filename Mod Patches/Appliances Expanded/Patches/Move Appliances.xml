@@ -3,21 +3,23 @@
 
     <!-- Kitchen things -->
     <Operation Class="PatchOperationFindMod">
-        <mods>Progression: Kitchen</mods>
+        <mods>
+            <li>Progression: Kitchen</li>
+        </mods>
 
         <match Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="CE_ChemfuelPot" or defName="CA_ChemfuelStoveLarge" or defName="CE_ChemfuelStove"
-                or defName="CE_ChemfuelDeepFrier" or defName="CE_AirFryer" or defName="CE_ChemfuelGrill"]/designatorDropdown</xpath>
+                or defName="CE_ChemfuelDeepFrier" or defName="CE_AirFryer" or defName="CE_ChemfuelGrill"]/designationCategory</xpath>
             <value>
-                <designatorDropdown>Ferny_Kitchen</designatorDropdown>
+                <designationCategory>Ferny_Kitchen</designationCategory>
             </value>
         </match>
 
         <nomatch Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="CE_ChemfuelPot" or defName="CA_ChemfuelStoveLarge" or defName="CE_ChemfuelStove"
-                or defName="CE_ChemfuelDeepFrier" or defName="CE_AirFryer" or defName="CE_ChemfuelGrill"]/designatorDropdown</xpath>
+                or defName="CE_ChemfuelDeepFrier" or defName="CE_AirFryer" or defName="CE_ChemfuelGrill"]/designationCategory</xpath>
             <value>
-                <designatorDropdown>Production</designatorDropdown>
+                <designationCategory>Production</designationCategory>
             </value>
         </nomatch>
 
@@ -25,40 +27,42 @@
 
     <!-- Production Things -->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="CE_FueledSmithyLarge" or CA_ChemfuelCrematorium or CA_ChemfuelSmithy or CA_ChemfuelSmelter]/designatorDropdown</xpath>
+        <xpath>Defs/ThingDef[defName="CE_FueledSmithyLarge" or defName="CA_ChemfuelCrematorium" or defName="CA_ChemfuelSmithy" or defName="CA_ChemfuelSmelter"]/designationCategory</xpath>
         <value>
-            <designatorDropdown>Production</designatorDropdown>
+            <designationCategory>Production</designationCategory>
         </value>
     </Operation>
 
     <!-- Temperature -->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="CAS_ChemfuelCooler" or CAS_ChemfuelHeater]/designatorDropdown</xpath>
+        <xpath>Defs/ThingDef[defName="CAS_ChemfuelCooler" or defName="CAS_ChemfuelHeater"]/designationCategory</xpath>
         <value>
-            <designatorDropdown>Temperature</designatorDropdown>
+            <designationCategory>Temperature</designationCategory>
         </value>
     </Operation>
 
     <!-- Lights -->
-     <Operation Class="PatchOperationFindMod">
-        <mods>Lighting Category</mods>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Lighting Category</li>
+        </mods>
 
         <match Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName="CA_Sunlamp" or defName="CA_ChemfuelStandingLamp" or CA_ChemfuelFloodlight or CAS_ChemfuelWallLight]/designatorDropdown</xpath>
+            <xpath>Defs/ThingDef[defName="CA_Sunlamp" or defName="CA_ChemfuelStandingLamp" or defName="CA_ChemfuelFloodlight" or defName="CAS_ChemfuelWallLight"]/designationCategory</xpath>
             <value>
-                <designatorDropdown>Ferny_Lighting</designatorDropdown>
+                <designationCategory>Ferny_Lighting</designationCategory>
             </value>
         </match>
 
-        <match Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName="CA_Sunlamp" or defName=""]/designatorDropdown</xpath>
+        <nomatch Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="CA_Sunlamp" or defName="CA_ChemfuelStandingLamp" or defName="CA_ChemfuelFloodlight" or defName="CAS_ChemfuelWallLight"]/designationCategory</xpath>
             <value>
-                <designatorDropdown>Furniture</designatorDropdown>
+                <designationCategory>Furniture</designationCategory>
             </value>
-        </match>
+        </nomatch>
 
     </Operation>
 
     <!-- TODO: Figure out where to put SCP_ChemDrill -->
-    
+
 </Patch>
