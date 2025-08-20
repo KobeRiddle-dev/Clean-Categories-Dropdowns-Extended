@@ -2,8 +2,17 @@
 <Patch>
 
     <!-- Smelters -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="ElectricSmelter"]/designatorDropdown</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="ElectricSmelter"]</xpath>
+            <value>
+                <designatorDropdown>KobeRiddle_Smelters</designatorDropdown>
+            </value>
+        </nomatch>
+    </Operation>
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="ElectricSmelter"][not(designatorDropdown)]</xpath>
+        <xpath>Defs/ThingDef[defName="CA_ChemfuelSmelter"]</xpath>
         <value>
             <designatorDropdown>KobeRiddle_Smelters</designatorDropdown>
         </value>
@@ -11,9 +20,26 @@
 
     <!-- Smithies -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="CE_FueledSmithyLarge"]</xpath>
+        <xpath>Defs/ThingDef[defName="CA_ChemfuelSmithy" or defName="CE_FueledSmithyLarge"]</xpath>
         <value>
             <designatorDropdown>KobeRiddle_Smithies</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Crematoriums -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="ElectricCrematorium"]/designatorDropdown</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="ElectricCrematorium"]</xpath>
+            <value>
+                <designatorDropdown>KobeRiddle_Crematoriums</designatorDropdown>
+            </value>
+        </nomatch>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="CA_ChemfuelCrematorium"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Crematoriums</designatorDropdown>
         </value>
     </Operation>
 
