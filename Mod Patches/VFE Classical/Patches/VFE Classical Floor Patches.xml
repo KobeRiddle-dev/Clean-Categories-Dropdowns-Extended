@@ -2,7 +2,7 @@
 <Patch>
     <!-- Sterile -->
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/ThingDef[defName="SterileTile"]/designatorDropdown</xpath>
+        <xpath>Defs/TerrainDef[defName="SterileTile"]/designatorDropdown</xpath>
         <nomatch Class="PatchOperationAdd">
             <xpath>Defs/TerrainDef[defName="SterileTile"][not(designatorDropdown)]</xpath>
             <value>
