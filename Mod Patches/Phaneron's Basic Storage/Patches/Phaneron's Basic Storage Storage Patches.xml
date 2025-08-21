@@ -25,4 +25,18 @@
         </value>
     </Operation>
 
+    <!-- Weapon Rack -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>[sbz] Neat Storage</li>
+            <li>[sbz] Gravship Storage</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="KobeRiddle_WeaponRacks"]</xpath>
+            <value>
+                <designatorDropdown>KobeRiddle_WeaponRacks</designatorDropdown>
+            </value>
+        </match>
+    </Operation>
+
 </Patch>
