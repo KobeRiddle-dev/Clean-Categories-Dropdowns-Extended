@@ -43,34 +43,6 @@
         </value>
     </Operation>
 
-    <!-- Shelves -->
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="Shelf"]</xpath>
-        <value>
-            <designatorDropdown>Ferny_Shelves</designatorDropdown>
-        </value>
-    </Operation>
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="ShelfSmall"]</xpath>
-        <value>
-            <designatorDropdown>Ferny_Shelves</designatorDropdown>
-        </value>
-    </Operation>
-
-    <!-- Bookcases -->
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="Bookcase"]</xpath>
-        <value>
-            <designatorDropdown>Ferny_Bookcases</designatorDropdown>
-        </value>
-    </Operation>
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="BookcaseSmall"]</xpath>
-        <value>
-            <designatorDropdown>Ferny_Bookcases</designatorDropdown>
-        </value>
-    </Operation>
-
     <!-- Plant pots -->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="PlantPot"]</xpath>
