@@ -5,6 +5,10 @@
     </DesignatorDropdownGroupDef>
 
     <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_Pallets</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
         <defName>KobeRiddle_WeaponRacks</defName>
     </DesignatorDropdownGroupDef>
 

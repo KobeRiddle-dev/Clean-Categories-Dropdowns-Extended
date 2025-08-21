@@ -13,7 +13,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="sbz_Pallet" or defName="sbz_MiniPallet"]</xpath>
         <value>
-            <designatorDropdown>KobeRiddle_NeatCrates</designatorDropdown>
+            <designatorDropdown>KobeRiddle_Pallets</designatorDropdown>
         </value>
     </Operation>
 
