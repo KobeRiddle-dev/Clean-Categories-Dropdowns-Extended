@@ -1,6 +1,14 @@
 <Defs>
 
     <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_GravshipCrates</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_GravshipShelves</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
         <defName>KobeRiddle_NeatCrates</defName>
     </DesignatorDropdownGroupDef>
 

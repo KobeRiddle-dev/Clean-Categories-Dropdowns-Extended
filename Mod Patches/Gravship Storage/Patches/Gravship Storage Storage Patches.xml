@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Gravship Crates -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="sbz_LargeGravshipCrate" 
+            or defName="sbz_GravshipCrate" 
+            or defName="sbz_LongGravshipCrate"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_GravshipCrates</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Gravship Shelves -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="sbz_GravshipTwoTierShelf" 
+            or defName="sbz_GravshipShelf" 
+            or defName="sbz_SmallGravshipShelf"
+            or defName="sbz_GravshipGlassShelf"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_GravshipShelves</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Weapon Rack -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>[sbz] Neat Storage</li>
+            <li>Phaneron's Basic Storage</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="sbz_GravshipWeaponRack"</xpath>
+            <value>
+                <designatorDropdown>KobeRiddle_WeaponRacks</designatorDropdown>
+            </value>
+        </match>
+    </Operation>
+
+</Patch>
