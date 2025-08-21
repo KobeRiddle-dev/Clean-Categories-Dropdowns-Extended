@@ -58,7 +58,8 @@
 
         <match Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="CA_Sunlamp" or defName="CA_SunlampDark" or defName="CA_ChemfuelStandingLamp"
-                or defName="CA_ChemfuelFloodlight" or defName="CAS_ChemfuelWallLight"]/designationCategory</xpath>
+                or defName="CA_ChemfuelFloodlight" or defName="CAS_ChemfuelWallLight" or defName="CA_ChemfuelBrazier"
+                or defName="CA_ChemfuelBrazierDark"]/designationCategory</xpath>
             <value>
                 <designationCategory>Ferny_Lighting</designationCategory>
             </value>
@@ -66,7 +67,8 @@
 
         <nomatch Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="CA_Sunlamp" or defName="CA_SunlampDark" or defName="CA_ChemfuelStandingLamp"
-                or defName="CA_ChemfuelFloodlight" or defName="CAS_ChemfuelWallLight"]/designationCategory</xpath>
+                or defName="CA_ChemfuelFloodlight" or defName="CAS_ChemfuelWallLight" or defName="CA_ChemfuelBrazier"
+                or defName="CA_ChemfuelBrazierDark"]/designationCategory</xpath>
             <value>
                 <designationCategory>Furniture</designationCategory>
             </value>

@@ -10,6 +10,14 @@
         </value>
     </Operation>
 
+    <!-- Braziers -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="CA_ChemfuelBrazier" or defName="CA_ChemfuelBrazierDark"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_ChemfuelBraziers</designatorDropdown>
+        </value>
+    </Operation>
+
     <!-- defName="CA_ChemfuelStandingLamp" -->
     <!-- defName="CA_ChemfuelFloodlight" -->
     <!-- defName="CAS_ChemfuelWallLight" -->
