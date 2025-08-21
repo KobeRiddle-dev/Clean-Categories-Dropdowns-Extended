@@ -8,6 +8,7 @@
         <!-- Mod Patches (alphabetical by folder name) -->
         <li IfModActive="ScpChemfuel.Appliances">Mod Patches/Appliances Expanded</li>
         <li IfModActive="WarlocksForge.FishTraps">Mod Patches/Fish Traps</li>
+        <li IfModActive="sbz.NeatStorage">Mod Patches/Neat Storage</li>
         <li IfModActive="Rebuild.Cotr.DoorsAndCorners">Mod Patches/Rebuild Doors and Corners</li>
         <li IfModActive="PeteTimesSix.ResearchReinvented.SteppingStones">Mod Patches/Research Reinvented Stepping Stones</li>
         <li IfModActive="Aelanna.TransparentSubstructure">Mod Patches/Transparent Substructure</li>

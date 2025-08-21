@@ -1,0 +1,11 @@
+<Defs>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_NeatCrates</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_WeaponRacks</defName>
+    </DesignatorDropdownGroupDef>
+
+</Defs>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Crates -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="sbz_Crate" or defName="sbz_MidCrate" or defName="sbz_SmallCrate"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_NeatCrates</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Pallets -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="sbz_Pallet" or defName="sbz_MiniPallet"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_NeatCrates</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Display Shelves -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="sbz_DisplayShelf" or defName="sbz_SmallDisplayShelf" or defName="sbz_TallDisplayShelf"
+            or defName="sbz_NarrowTallDisplayShelf" or defName="sbz_TwoTierDisplayShelf"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_DisplayShelves</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Hanger Shelves -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="sbz_WideHangerShelf" or defName="sbz_HangerShelf"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_HangerShelves</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Display Cabinets -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="sbz_DisplayCabinet" or defName="sbz_NarrowDisplayCabinet"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_DisplayCabinets</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Open Shelf -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="sbz_OpenShelf"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_Shelves</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Weapon Racks -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="sbz_VerticalWeaponRack" or defName="sbz_HorizontalWeaponRack" or defName="sbz_WeaponRack"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_WeaponRacks</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>
