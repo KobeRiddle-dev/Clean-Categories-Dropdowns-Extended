@@ -3,7 +3,7 @@
 
     <!-- Meal Storages -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="BasicStorageMealStorage" or defName="BasicStorageMealStorage"]</xpath>
+        <xpath>Defs/ThingDef[defName="BasicStorageMealStorage" or defName="ASNeolithicMealShelf"]</xpath>
         <value>
             <designatorDropdown>KobeRiddle_MealStorages</designatorDropdown>
         </value>
