@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Kitchen things -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Progression: Kitchen</li>
+        </mods>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VNPE_NutrientPastePipes"
+                or defName="VNPE_UndergroundNutrientPastePipe"
+                or defName="VNPE_NutrientPasteValve"
+                or defName="VNPE_NutrientPasteGrinder"
+                or defName="VNPE_NutrientPasteTap"
+                or defName="VNPE_NutrientPasteFeeder"
+                or defName="VNPE_NutrientPasteDripper"
+                or defName="VNPE_NutrientPasteVat"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Ferny_Kitchen</designationCategory>
+            </value>
+        </match>
+
+    </Operation>
+
+</Patch>
