@@ -28,17 +28,19 @@
 
 		<li>Ferny.CategoriesDropdowns</li>
 		<li>Ferny.NetworkCategory</li>
+		<li>SmashPhil.VehicleFramework</li>
 
 		<li>WarlocksForge.FishTraps</li>
 		<li>Rebuild.Cotr.DoorsAndCorners</li>
 		<li>PeteTimesSix.ResearchReinvented.SteppingStones</li>
 		<li>Aelanna.TransparentSubstructure</li>
 		<li>VanillaExpanded.VBooksE</li>
+		<li>VanillaExpanded.VBrewE</li>
+		<li>VanillaExpanded.HelixienGas</li>
+		<li>VanillaExpanded.VCookEStews</li>
 		<li>VanillaExpanded.VFEArchitect</li>
 		<li>OskarPotocki.VFE.Classical</li>
 		<li>OskarPotocki.VFE.Medieval2</li>
-		<li>VanillaExpanded.VBrewE</li>
-		<li>VanillaExpanded.VCookEStews</li>
 		<li>VanillaExpanded.VFEProduction</li>
 	</loadAfter>
 </ModMetaData>

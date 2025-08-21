@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Gas Generators -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VHGE_HelixienGenerator" or defName="VHGE_IndustrialHelixienGenerator"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_GasGenerators</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>    

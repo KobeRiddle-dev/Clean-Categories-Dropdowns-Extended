@@ -2,6 +2,10 @@
 <Defs>
 
     <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_BiofuelRefineries</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
         <defName>KobeRiddle_CraftingBenches</defName>
     </DesignatorDropdownGroupDef>
 
@@ -11,6 +15,10 @@
 
     <DesignatorDropdownGroupDef>
         <defName>KobeRiddle_DraughtLabs</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_Drills</defName>
     </DesignatorDropdownGroupDef>
 
     <DesignatorDropdownGroupDef>

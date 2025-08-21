@@ -12,12 +12,13 @@
         <li IfModActive="PeteTimesSix.ResearchReinvented.SteppingStones">Mod Patches/Research Reinvented Stepping Stones</li>
         <li IfModActive="Aelanna.TransparentSubstructure">Mod Patches/Transparent Substructure</li>
         <li IfModActive="VanillaExpanded.VBooksE">Mod Patches/VE Books</li>
+        <li IfModActive="VanillaExpanded.VBrewE">Mod Patches/VE Brewing</li>
+        <li IfModActive="VanillaExpanded.HelixienGas">Mod Patches/VE Helixien Gas</li>
+        <li IfModActive="VanillaExpanded.VCookEStews">Mod Patches/VE Stews</li>
+        <li IfModActive="VanillaExpanded.VFEArchitect">Mod Patches/VFE Architect</li>
         <li IfModActive="OskarPotocki.VFE.Classical">Mod Patches/VFE Classical</li>
         <li IfModActive="OskarPotocki.VFE.Medieval2">Mod Patches/VFE Medieval 2</li>
-        <li IfModActive="VanillaExpanded.VFEArchitect">Mod Patches/VFE Architect</li>
         <li IfModActive="VanillaExpanded.VFEProduction">Mod Patches/VFE Production</li>
-        <li IfModActive="VanillaExpanded.VBrewE">Mod Patches/VE Brewing</li>
-        <li IfModActive="VanillaExpanded.VCookEStews">Mod Patches/VE Stews</li>
 
 
         <!-- Combo mod patches (alphabetical by folder name) -->

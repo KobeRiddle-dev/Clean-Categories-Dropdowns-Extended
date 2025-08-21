@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Kitchen things -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Progression: Kitchen</li>
+        </mods>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VHGE_GasPoweredStove"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Ferny_Kitchen</designationCategory>
+            </value>
+        </match>
+
+        <nomatch Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VHGE_GasPoweredStove"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Production</designationCategory>
+            </value>
+        </nomatch>
+
+    </Operation>
+
+    <!-- Production Things -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VHGE_GasPoweredRefinery" or defName="VHGE_GasPoweredCrematorium" or defName="VHGE_GasPoweredSmithy"
+            or defName="VHGE_GasPoweredSmelter"]/designationCategory</xpath>
+        <value>
+            <designationCategory>Production</designationCategory>
+        </value>
+    </Operation>
+
+    <!-- Temperature -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VHGE_GasCooler" or defName="VHGE_GasHeater"]/designationCategory</xpath>
+        <value>
+            <designationCategory>Temperature</designationCategory>
+        </value>
+    </Operation>
+
+    <!-- Lights -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Lighting Category</li>
+        </mods>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VHGE_GasSunLamp" or defName="VHGE_GasLamp"
+                or defName="VHGE_GasFloodlight" or defName="VHGE_GasWallLamp"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Ferny_Lighting</designationCategory>
+            </value>
+        </match>
+
+        <nomatch Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VHGE_GasSunLamp" or defName="VHGE_GasLamp"
+                or defName="VHGE_GasFloodlight" or defName="VHGE_GasWallLamp"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Furniture</designationCategory>
+            </value>
+        </nomatch>
+
+    </Operation>
+
+    <!-- Transport -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vehicle Framework</li>
+        </mods>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VHGE_GasOperatedPodLauncher"]/designationCategory</xpath>
+            <value>
+                <designationCategory>VF_Vehicles</designationCategory>
+            </value>
+        </match>
+
+        <nomatch Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VHGE_GasOperatedPodLauncher"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Misc</designationCategory>
+            </value>
+        </nomatch>
+
+    </Operation>
+
+</Patch>

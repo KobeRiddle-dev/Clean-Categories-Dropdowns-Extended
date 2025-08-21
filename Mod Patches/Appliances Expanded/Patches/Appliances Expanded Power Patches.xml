@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Gas Turbine -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="CA_GasTurbine"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_GasGenerators</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Wood Turbine -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="CA_WoodFiredTurbine"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_WoodGenerators</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Chemfuel Turbine -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="CA_ChemfuelTurbine"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_ChemfuelGenerators</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_ChemfuelPipes</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_DeepChemPipes</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_HelixienGasPipes</defName>
+    </DesignatorDropdownGroupDef>
+
+</Defs>
