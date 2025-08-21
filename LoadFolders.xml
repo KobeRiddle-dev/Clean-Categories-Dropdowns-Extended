@@ -23,7 +23,7 @@
 
 
         <!-- Combo mod patches (alphabetical by folder name) -->
-        <li IfModActiveAll="VanillaExpanded.VFEArchitect,Rebuild.Cotr.DoorsAndCorners">Mod Patches/Rebuild Doors and Corners + VFE Architect</li>
+        <li IfModActiveAll="VanillaExpanded.VFEArchitect,Rebuild.Cotr.DoorsAndCorners">Combo Patches/Rebuild Doors and Corners + VFE Architect</li>
 
     </v1.6>
 </loadFolders>
