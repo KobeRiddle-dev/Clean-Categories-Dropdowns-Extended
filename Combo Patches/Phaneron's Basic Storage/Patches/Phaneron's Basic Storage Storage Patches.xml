@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Crates -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="BasicStorageMediumCrate" or defName="BasicStorageLargeCrate" or defName="BasicStorageMetalCrate" or defName="BasicStorageWoodenCrate"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_PhaneronCrates</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Pallets -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="BasicStoragePalletLarge" or defName="BasicStoragePalletSmall"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Pallets</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Food Storages -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="BasicStorageFoodBarrel" or defName="BasicStorageFoodCupboard"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Pallets</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>

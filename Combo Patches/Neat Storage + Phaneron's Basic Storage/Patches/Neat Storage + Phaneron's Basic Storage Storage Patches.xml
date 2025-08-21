@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Meat Hooks -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="BasicStorageMeatHook" or defName="sbz_MeatHook"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_MeatHooks</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Weapon Racks (weapon racks from Neat Storage are already grouped -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="BasicStorageWeaponRack"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_WeaponRacks</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>
