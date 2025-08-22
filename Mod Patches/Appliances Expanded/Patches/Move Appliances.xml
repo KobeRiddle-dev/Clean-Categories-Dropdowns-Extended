@@ -27,7 +27,7 @@
 
     <!-- Production Things -->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="CE_FueledSmithyLarge" or defName="CA_ChemfuelCrematorium" or defName="CA_ChemfuelSmithy" 
+        <xpath>Defs/ThingDef[defName="CE_FueledSmithyLarge" or defName="CA_ChemfuelCrematorium" or defName="CA_ChemfuelSmithy"
             or defName="CA_ChemfuelSmelter"]/designationCategory</xpath>
         <value>
             <designationCategory>Production</designationCategory>
@@ -43,11 +43,25 @@
     </Operation>
 
     <!-- Drill -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="SCP_ChemDrill"]/designationCategory</xpath>
-        <value>
-            <designationCategory>Misc</designationCategory>
-        </value>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Environment Category</li>
+        </mods>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="SCP_ChemDrill"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Ferny_Environment</designationCategory>
+            </value>
+        </match>
+
+        <nomatch Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="SCP_ChemDrill"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Production</designationCategory>
+            </value>
+        </nomatch>
+
     </Operation>
 
     <!-- Lights -->
