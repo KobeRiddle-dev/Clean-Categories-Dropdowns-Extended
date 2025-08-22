@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Baskets -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="ASNeolithicBasketWoody" or defName="ASNeolithicBasketFabric"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_NeolithicBaskets</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Big Pots (the stony ones are already in a dropdown) -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="ASNeolithicLargePot"]</xpath>
+        <value>
+            <designatorDropdown>ASNeolithicLargePot</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Plinths (the stony ones are already in a dropdown) -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="ASNeolithicPlinthWoody"]</xpath>
+        <value>
+            <designatorDropdown>ASNeolithicPlinthStone</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Textile Bundles -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="ASNeolithicTextileBundleFabric" or defName="ASNeolithicTextileBundleLeather"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_HangerShelves</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Wood Pile -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Adaptive Primitive Storage</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="ASNeolithicWoodPile"</xpath>
+            <value>
+                <designatorDropdown>KobeRiddle_WoodPiles</designatorDropdown>
+            </value>
+        </match>
+    </Operation>
+
+
+</Patch>

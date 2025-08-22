@@ -9,11 +9,15 @@
     </DesignatorDropdownGroupDef>
 
     <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_MeatHooks</defName>
+    </DesignatorDropdownGroupDef>
+    
+    <DesignatorDropdownGroupDef>
         <defName>KobeRiddle_NeatCrates</defName>
     </DesignatorDropdownGroupDef>
 
     <DesignatorDropdownGroupDef>
-        <defName>KobeRiddle_MeatHooks</defName>
+        <defName>KobeRiddle_NeolithicBaskets</defName>
     </DesignatorDropdownGroupDef>
 
     <DesignatorDropdownGroupDef>
@@ -26,6 +30,10 @@
 
     <DesignatorDropdownGroupDef>
         <defName>KobeRiddle_WeaponRacks</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_WoodPiles</defName>
     </DesignatorDropdownGroupDef>
 
 </Defs>
