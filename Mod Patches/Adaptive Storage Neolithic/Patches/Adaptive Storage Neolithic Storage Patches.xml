@@ -39,7 +39,7 @@
             <li>Adaptive Primitive Storage</li>
         </mods>
         <match Class="PatchOperationAdd">
-            <xpath>Defs/ThingDef[defName="ASNeolithicWoodPile"</xpath>
+            <xpath>Defs/ThingDef[defName="ASNeolithicWoodPile"]</xpath>
             <value>
                 <designatorDropdown>KobeRiddle_WoodPiles</designatorDropdown>
             </value>

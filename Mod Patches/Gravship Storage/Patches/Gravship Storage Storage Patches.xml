@@ -30,7 +30,7 @@
             <li>[sbz] Neat Storage</li>
         </mods>
         <match Class="PatchOperationAdd">
-            <xpath>Defs/ThingDef[defName="sbz_GravshipWeaponRack"</xpath>
+            <xpath>Defs/ThingDef[defName="sbz_GravshipWeaponRack"]</xpath>
             <value>
                 <designatorDropdown>KobeRiddle_WeaponRacks</designatorDropdown>
             </value>

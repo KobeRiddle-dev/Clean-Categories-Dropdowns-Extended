@@ -21,7 +21,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="BasicStorageFoodBarrel" or defName="BasicStorageFoodCupboard"]</xpath>
         <value>
-            <designatorDropdown>KobeRiddle_Pallets</designatorDropdown>
+            <designatorDropdown>KobeRiddle_FoodStuffsStorages</designatorDropdown>
         </value>
     </Operation>
 
@@ -31,9 +31,10 @@
             <li>Adaptive Primitive Storage</li>
             <li>[sbz] Neat Storage</li>
             <li>[sbz] Gravship Storage</li>
+            <li>Vanilla Furniture Expanded</li>
         </mods>
         <match Class="PatchOperationAdd">
-            <xpath>Defs/ThingDef[defName="KobeRiddle_WeaponRacks"]</xpath>
+            <xpath>Defs/ThingDef[defName="BasicStorageWeaponRack"]</xpath>
             <value>
                 <designatorDropdown>KobeRiddle_WeaponRacks</designatorDropdown>
             </value>

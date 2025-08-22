@@ -23,9 +23,10 @@
             <li>Phaneron's Basic Storage</li>
             <li>[sbz] Neat Storage</li>
             <li>[sbz] Gravship Storage</li>
+            <li>Vanilla Furniture Expanded</li>
         </mods>
         <match Class="PatchOperationAdd">
-            <xpath>Defs/ThingDef[defName="ASF_WeaponRack"</xpath>
+            <xpath>Defs/ThingDef[defName="ASF_WeaponRack"]</xpath>
             <value>
                 <designatorDropdown>KobeRiddle_WeaponRacks</designatorDropdown>
             </value>
@@ -34,7 +35,7 @@
 
     <!-- Wood Pile -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="ASF_SmallLogPile" or defName="ASF_LargeLogPile"</xpath>
+        <xpath>Defs/ThingDef[defName="ASF_SmallLogPile" or defName="ASF_LargeLogPile"]</xpath>
         <value>
             <designatorDropdown>KobeRiddle_WoodPiles</designatorDropdown>
         </value>
