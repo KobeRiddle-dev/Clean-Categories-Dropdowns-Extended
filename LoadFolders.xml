@@ -6,11 +6,15 @@
         <li IfModActive="Ludeon.Rimworld.Ideology">Mod Patches/Ideology</li>
 
         <!-- Mod Patches (alphabetical by folder name) -->
+        <li IfModActive="Adaptive.PrimitiveStorage">Mod Patches/Adaptive Primitive Storage</li>
+        <li IfModActive="Adaptive.Storage.Neolithic">Mod Patches/Adaptive Storage Neolithic</li>
         <li IfModActive="ScpChemfuel.Appliances">Mod Patches/Appliances Expanded</li>
         <li IfModActive="WarlocksForge.FishTraps">Mod Patches/Fish Traps</li>
+        <li IfModActive="sbz.GravshipStorage">Mod Patches/Gravship Storage</li>
         <li IfModActive="sbz.NeatStorage">Mod Patches/Neat Storage</li>
         <li IfModActive="Rebuild.Cotr.DoorsAndCorners">Mod Patches/Rebuild Doors and Corners</li>
         <li IfModActive="PeteTimesSix.ResearchReinvented.SteppingStones">Mod Patches/Research Reinvented Stepping Stones</li>
+        <li IfModActive="Phaneron.Basic.Storage">Mod Patches/Phaneron's Basic Storage</li>
         <li IfModActive="Aelanna.TransparentSubstructure">Mod Patches/Transparent Substructure</li>
         <li IfModActive="VanillaExpanded.VBooksE">Mod Patches/VE Books</li>
         <li IfModActive="VanillaExpanded.VBrewE">Mod Patches/VE Brewing</li>
@@ -21,9 +25,11 @@
         <li IfModActive="OskarPotocki.VFE.Medieval2">Mod Patches/VFE Medieval 2</li>
         <li IfModActive="VanillaExpanded.VFEProduction">Mod Patches/VFE Production</li>
 
-
         <!-- Combo mod patches (alphabetical by folder name) -->
-        <li IfModActiveAll="VanillaExpanded.VFEArchitect,Rebuild.Cotr.DoorsAndCorners">Combo Patches/Rebuild Doors and Corners + VFE Architect</li>
+        <li IfModActiveAll="Adaptive.Storage.Neolithic,Phaneron.Basic.Storage">Mod Combo Patches/Adaptive Storage Neolithic Storage + Phaneron's Basic Storage</li>
+        <li IfModActiveAll="sbz.NeatStorage,Phaneron.Basic.Storage">Mod Combo Patches/Neat Storage + Phaneron's Basic Storage</li>
+        <li IfModActiveAll="Rebuild.Cotr.DoorsAndCorners,VanillaExpanded.VFEArchitect">Mod Combo Patches/Rebuild Doors and Corners + VFE Architect</li>
+
 
     </v1.6>
 </loadFolders>
