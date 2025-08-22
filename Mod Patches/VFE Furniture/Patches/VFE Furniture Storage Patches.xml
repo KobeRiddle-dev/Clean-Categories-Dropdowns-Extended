@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Weapon Rack -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Adaptive Primitive Storage</li>
+            <li>Phaneron's Basic Storage</li>
+            <li>[sbz] Neat Storage</li>
+            <li>[sbz] Gravship Storage</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Shelf_WeaponRack"]</xpath>
+            <value>
+                <designatorDropdown>KobeRiddle_WeaponRacks</designatorDropdown>
+            </value>
+        </match>
+    </Operation>
+
+</Patch>
