@@ -1,6 +1,10 @@
 <Defs>
 
     <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_Cellars</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
         <defName>KobeRiddle_GravshipCrates</defName>
     </DesignatorDropdownGroupDef>
 

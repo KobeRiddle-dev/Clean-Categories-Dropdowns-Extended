@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Baskets -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="ASF_WovenBasket" or defName="ASF_WovenBasketDouble" or defName="ASF_WovenBasketTriple"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_WovenBaskets</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Cellars -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="ASF_CellarStone" or defName="ASF_CellarWood" or defName="ASF_StoragePit"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Cellars</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Weapon Rack -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Phaneron's Basic Storage</li>
+            <li>[sbz] Neat Storage</li>
+            <li>[sbz] Gravship Storage</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="ASF_WeaponRack"</xpath>
+            <value>
+                <designatorDropdown>KobeRiddle_WeaponRacks</designatorDropdown>
+            </value>
+        </match>
+    </Operation>
+
+    <!-- Wood Pile -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="ASF_SmallLogPile" or defName="ASF_LargeLogPile"</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_WoodPiles</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>

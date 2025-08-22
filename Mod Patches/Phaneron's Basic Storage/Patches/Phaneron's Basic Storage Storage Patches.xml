@@ -28,6 +28,7 @@
     <!-- Weapon Rack -->
     <Operation Class="PatchOperationFindMod">
         <mods>
+            <li>Adaptive Primitive Storage</li>
             <li>[sbz] Neat Storage</li>
             <li>[sbz] Gravship Storage</li>
         </mods>
