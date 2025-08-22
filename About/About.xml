@@ -46,6 +46,7 @@
 		<li>VanillaExpanded.VCookEStews</li>
 		<li>VanillaExpanded.VFEArchitect</li>
 		<li>OskarPotocki.VFE.Classical</li>
+		<li>VanillaExpanded.VFECore</li>
 		<li>OskarPotocki.VFE.Medieval2</li>
 		<li>VanillaExpanded.VFEProduction</li>
 	</loadAfter>

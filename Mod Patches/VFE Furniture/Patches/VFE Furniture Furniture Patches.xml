@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Tables -->
+
+    <!-- Chairs -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Stool"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_Chairs</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Plant pots -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PlantPot"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_PlantPots</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>

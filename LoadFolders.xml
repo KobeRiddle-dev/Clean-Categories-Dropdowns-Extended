@@ -22,6 +22,7 @@
         <li IfModActive="VanillaExpanded.VCookEStews">Mod Patches/VE Stews</li>
         <li IfModActive="VanillaExpanded.VFEArchitect">Mod Patches/VFE Architect</li>
         <li IfModActive="OskarPotocki.VFE.Classical">Mod Patches/VFE Classical</li>
+        <li IfModActive="VanillaExpanded.VFECore">Mod Patches/VFE Furniture</li>
         <li IfModActive="OskarPotocki.VFE.Medieval2">Mod Patches/VFE Medieval 2</li>
         <li IfModActive="VanillaExpanded.VFEProduction">Mod Patches/VFE Production</li>
 
