@@ -11,27 +11,15 @@
 
     <!-- Clerestory Walls -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="RB_ClerestoryWall"]</xpath>
+        <xpath>Defs/ThingDef[defName="RB_ClerestoryWall" or defName="RB_ReinforcedClerestoryWall"]</xpath>
         <value>
-            <designatorDropdown>KobeRiddle_ClerestoryWalls</designatorDropdown>
-        </value>
-    </Operation>
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="RB_ReinforcedClerestoryWall"]</xpath>
-        <value>
-            <designatorDropdown>KobeRiddle_ClerestoryWalls</designatorDropdown>
+            <designatorDropdown>Ferny_GlassWalls</designatorDropdown>
         </value>
     </Operation>
 
     <!-- Glass Walls -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="RB_GlassWall"]</xpath>
-        <value>
-            <designatorDropdown>Ferny_GlassWalls</designatorDropdown>
-        </value>
-    </Operation>
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="RB_ReinforcedGlassWall"]</xpath>
+        <xpath>Defs/ThingDef[defName="RB_GlassWall" or defName="RB_ReinforcedGlassWall"]</xpath>
         <value>
             <designatorDropdown>Ferny_GlassWalls</designatorDropdown>
         </value>
