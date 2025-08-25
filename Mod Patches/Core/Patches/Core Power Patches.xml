@@ -3,21 +3,7 @@
 
     <!-- Conduits -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="PowerConduit"]</xpath>
-        <value>
-            <designatorDropdown>Ferny_Conduits</designatorDropdown>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="HiddenConduit"]</xpath>
-        <value>
-            <designatorDropdown>Ferny_Conduits</designatorDropdown>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="WaterproofConduit"]</xpath>
+        <xpath>Defs/ThingDef[defName="PowerConduit" or defName="HiddenConduit" or defName="WaterproofConduit"]</xpath>
         <value>
             <designatorDropdown>Ferny_Conduits</designatorDropdown>
         </value>
