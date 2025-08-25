@@ -67,11 +67,14 @@ Adds a lot more Dropdowns, while still maintaining the objective of not combinin
 
 ### Dubs Bad Hygiene
 
+- Water Trough, Pet Water Bowl -> Animal Water Bowls
 - Radiator, Large Radiator -> Radiators
 - Shower, Simple Shower, Power Shower -> Showers
 - Latrine, Toilet, Smart Toilet, Vacuum Toilet -> Toilets
-- Water Tower, Huge Water Tower -> Water Towers
+- Fueled Sauna Heater, Electric Sauna Heater -> Sauna Heaters
+- Water Butt, Water Tower, Huge Water Tower -> Water Tanks
 - Wind Pump, Electric Pump, Pumping Station -> Pumps
+- Wash Bucket, Basin, Kitchen Sink -> Sinks
 - Log Boiler, Gas Boiler, Electric Boiler, Solar Water Heater, Geothermal Water Heater -> Water Heaters
 - Primitive Well, Water Well, Deep Water Well -> Water Wells
 - Plumbing, Plumbing (Hidden) -> Plumbing Pipes

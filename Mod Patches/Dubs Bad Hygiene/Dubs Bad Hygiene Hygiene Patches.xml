@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Animal Water Bowl -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="WaterTrough" or defName="PetWaterBowl"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_AnimalWaterBowls</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Plumbing Pipes -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="sewagePipeStuff" or defName="sewagePipeHidden"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_PlumbingPipes</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Radiators -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@ParentName="BaseRadiator"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_Radiators</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Sauna Heaters -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="DBHSaunaHeaterLog" or defName="DBHSaunaHeaterElec"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_SaunaHeaters</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Showers -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="ShowerStuff" or defName="ShowerSimple" or defName="ShowerAdvStuff"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Showers</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Sinks -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="WashBucket" or defName="BasinStuff" or defName="KitchenSink"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Sinks</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Toilets -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PitLatrine" or defName="ToiletStuff" or defName="ToiletAdvStuff" 
+            or defName="ToiletSpacer"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Toilets</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Water Heaters -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="LogBoiler" or defName="GasBoiler" or defName="ElectricBoiler"
+            or defName="SolarHeater" or defName="GeothermHeater"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_WaterHeaters</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Water Pumps -->
+     <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@ParentName="BasedWaterPump"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_WaterPumps</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Water Towers -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@ParentName="BasedWaterTower"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_WaterTanks</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Water Wells -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@ParentName="BasedWaterWell"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_WaterWells</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>
