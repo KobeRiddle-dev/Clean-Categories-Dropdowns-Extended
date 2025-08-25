@@ -5,4 +5,8 @@
         <defName>KobeRiddle_MechGestators</defName>
     </DesignatorDropdownGroupDef>
 
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_DeathrestCaskets</defName>
+    </DesignatorDropdownGroupDef>
+
 </Defs>
