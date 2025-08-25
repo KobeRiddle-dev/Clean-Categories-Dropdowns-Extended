@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- ChestFridges -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="sbz_SingleChestFridge" or defName="sbz_DoubleChestFridge"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_FridgesChest</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Fridges -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="sbz_Fridge" or defName="sbz_LargeFridge"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Fridges</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Wall Fridges -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="sbz_SingleWallFridge" or defName="sbz_DoubleWallFridge"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_FridgesWall</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>

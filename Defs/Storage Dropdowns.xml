@@ -9,6 +9,18 @@
     </DesignatorDropdownGroupDef>
 
     <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_Fridges</defName>
+    </DesignatorDropdownGroupDef>
+    
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_FridgesChest</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_FridgesWall</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
         <defName>KobeRiddle_GravshipCrates</defName>
     </DesignatorDropdownGroupDef>
 
