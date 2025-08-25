@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@ParentName="TrapIEDBase"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_IedTraps</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>
