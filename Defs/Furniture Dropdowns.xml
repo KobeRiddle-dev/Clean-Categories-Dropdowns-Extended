@@ -5,4 +5,8 @@
         <defName>KobeRiddle_Stools</defName>
     </DesignatorDropdownGroupDef>
 
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_OutfitStands</defName>
+    </DesignatorDropdownGroupDef>
+
 </Defs>
