@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Computers -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@ParentName="VFE_ComputerBase"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Computers</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Radios -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@ParentName="VFE_RadioBase"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Radios</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>
