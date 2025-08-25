@@ -19,6 +19,7 @@
         <li IfModActive="VanillaExpanded.VBooksE">Mod Patches/VE Books</li>
         <li IfModActive="VanillaExpanded.VBrewE">Mod Patches/VE Brewing</li>
         <li IfModActive="VanillaExpanded.HelixienGas">Mod Patches/VE Helixien Gas</li>
+        <li IfModActive="VanillaExpanded.VNutrientE">Mod Patches/VE Nutrient Paste</li>
         <li IfModActive="VanillaExpanded.VCookEStews">Mod Patches/VE Stews</li>
         <li IfModActive="VanillaExpanded.VFEArchitect">Mod Patches/VFE Architect</li>
         <li IfModActive="OskarPotocki.VFE.Classical">Mod Patches/VFE Classical</li>
