@@ -9,4 +9,8 @@
         <defName>KobeRiddle_Radios</defName>
     </DesignatorDropdownGroupDef>
 
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_Televisions</defName>
+    </DesignatorDropdownGroupDef>
+
 </Defs>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="TubeTelevision" or defName="FlatscreenTelevision" or defName="MegascreenTelevision"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Televisions</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>
