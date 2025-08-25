@@ -117,6 +117,7 @@ Adds a lot more Dropdowns, while still maintaining the objective of not combinin
 - Meat Hook, Meat Hook -> Meat Hooks
 - Pallet, Mini Pallet -> Pallets
 - Open Shelf -> Shelves
+- Textile Rack -> Textile Storages
 - Weapon Rack, Horizontal Weapon Rack, Vertical Weapon Rack -> Weapon Racks
 
 ### Phaneron's Basic Storage

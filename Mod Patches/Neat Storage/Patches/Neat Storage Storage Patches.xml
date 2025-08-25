@@ -50,6 +50,14 @@
         </value>
     </Operation>
 
+    <!-- Textile Rack -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="sbz_TextileRack"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_TextileStorages</designatorDropdown>
+        </value>
+    </Operation>
+
     <!-- Weapon Racks -->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="sbz_VerticalWeaponRack" or defName="sbz_HorizontalWeaponRack" or defName="sbz_WeaponRack"]</xpath>
