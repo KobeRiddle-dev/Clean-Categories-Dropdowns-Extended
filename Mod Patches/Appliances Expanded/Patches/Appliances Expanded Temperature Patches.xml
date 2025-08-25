@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Chemfuel Cooler -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="CAS_ChemfuelCooler"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_Coolers</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>
