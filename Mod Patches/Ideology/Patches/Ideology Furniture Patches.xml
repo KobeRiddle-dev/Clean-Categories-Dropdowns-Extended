@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="PlantPot"]/designatorDropdown</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="PlantPot"]</xpath>
+            <value>
+                <designatorDropdown>KobeRiddle_PlantPots</designatorDropdown>
+            </value>
+        </nomatch>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PlantPot_Bonsai"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_PlantPots</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>

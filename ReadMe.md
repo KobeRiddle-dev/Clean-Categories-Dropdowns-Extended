@@ -26,7 +26,7 @@ Adds a lot more Dropdowns, while still maintaining the objective of not combinin
 
 ### Ideology
 
-- Bonsai Pot, Plant Decoration -> Plant Pots
+- Bonsai Pot, Plant Pot -> Plant Pots
 
 ### Biotech
 
@@ -40,7 +40,7 @@ Adds a lot more Dropdowns, while still maintaining the objective of not combinin
 
 ### Odyssey
 
-- - Heavy Bridge, Transparent Heavy Bridge (from Transparent Substructure) -> Heavy Bridges
+- Heavy Bridge, Transparent Heavy Bridge (from Transparent Substructure) -> Heavy Bridges
 
 ### Adaptive Primitive Storage
 
