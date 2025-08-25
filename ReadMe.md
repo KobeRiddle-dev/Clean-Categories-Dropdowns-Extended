@@ -7,17 +7,17 @@ Adds a lot more Dropdowns, while still maintaining the objective of not combinin
 ## Patches
 
 ### Core
-- Fueled Stove, Electric Stove -> Stoves
-- Butcher Table, Electric Butcher Table -> Butcher Tables
-- Fueled Smelter, Electric Smelter -> Smelters
-- Hand Tailor Bench, Electric Tailor Bench -> Tailor Benches
-- Simple Research Bench, Hi-Tech Research Bench -> Research Benches
 - Bookcase (1x2), Bookcase (1x1) -> Bookcases
-- Shelf (1x2), Shelf (1x1) -> Shelves
-- Table (1x2), Table (2x2), Table (2x4), Table (3x3) -> Tables
-- Power Conduit, Hidden Power Conduit -> Power Conduits
-- IED Trap, IED Incendiary Trap, IED EMP Trap, IED Smoke Trap, IED Firefoam Trap, IED Antigrain Warhead Trap -> IED Traps
+- Butcher Table, Electric Butcher Table -> Butcher Tables
 - Concrete, Paved Tile -> Concrete Floors
+- IED Trap, IED Incendiary Trap, IED EMP Trap, IED Smoke Trap, IED Firefoam Trap, IED Antigrain Warhead Trap -> IED Traps
+- Power Conduit, Hidden Power Conduit -> Power Conduits
+- Simple Research Bench, Hi-Tech Research Bench -> Research Benches
+- Shelf (1x2), Shelf (1x1) -> Shelves
+- Fueled Smelter, Electric Smelter -> Smelters
+- Fueled Stove, Electric Stove -> Stoves
+- Table (1x2), Table (2x2), Table (2x4), Table (3x3) -> Tables
+- Hand Tailor Bench, Electric Tailor Bench -> Tailor Benches
 - Tube Television, Flatscreen Television, Megascreen Television -> Televisions
 
 ### Royalty
@@ -35,8 +35,8 @@ Adds a lot more Dropdowns, while still maintaining the objective of not combinin
 
 ### Anomaly
 
-- Security Door, Large Security Door -> Security Doors
 - IED Deadlife Trap -> IED Traps
+- Security Door, Large Security Door -> Security Doors
 
 ### Odyssey
 
@@ -49,35 +49,35 @@ Adds a lot more Dropdowns, while still maintaining the objective of not combinin
 
 ### Adaptive Storage Neolithic
 
-- Wooden Pile -> Log Piles
 - Wooden Basket, Cloth Basket -> Baskets
 - Wooden Large Pot, Stone Large Pot -> Large Pots
+- Wooden Pile -> Log Piles
 - Meal Shelf, Meal Cupboard -> Meal Storages
 - Wooden Plinth, Stone Plinth -> Plinths
 - Cloth Bundle, Leather Bundle -> Textile Bundles
 
 ### Appliances Expanded
 
-- Electric Grill, Grill -> Grills
-- Electric Pot, Chemfuel Pot -> Soup Pots
-- Deep Fryer, Chemfuel Deep Fryer, Air Fryer -> Fryers
+- Chemfuel Cooler -> Coolers
 - Deep Drill, Chemfuel Powered Excavator -> Deep Drills
 - Chemfuel Brazier, Darklight Chemfuel Brazier -> Chemfuel Braziers
-- Chemfuel Cooler -> Coolers
+- Deep Fryer, Chemfuel Deep Fryer, Air Fryer -> Fryers
+- Electric Grill, Grill -> Grills
+- Electric Pot, Chemfuel Pot -> Soup Pots
 
 ### Dubs Bad Hygiene
 
 - Water Trough, Pet Water Bowl -> Animal Water Bowls
-- Radiator, Large Radiator -> Radiators
-- Shower, Simple Shower, Power Shower -> Showers
-- Latrine, Toilet, Smart Toilet, Vacuum Toilet -> Toilets
-- Fueled Sauna Heater, Electric Sauna Heater -> Sauna Heaters
-- Water Butt, Water Tower, Huge Water Tower -> Water Tanks
-- Wind Pump, Electric Pump, Pumping Station -> Pumps
-- Wash Bucket, Basin, Kitchen Sink -> Sinks
-- Log Boiler, Gas Boiler, Electric Boiler, Solar Water Heater, Geothermal Water Heater -> Water Heaters
-- Primitive Well, Water Well, Deep Water Well -> Water Wells
 - Plumbing, Plumbing (Hidden) -> Plumbing Pipes
+- Radiator, Large Radiator -> Radiators
+- Fueled Sauna Heater, Electric Sauna Heater -> Sauna Heaters
+- Shower, Simple Shower, Power Shower -> Showers
+- Wash Bucket, Basin, Kitchen Sink -> Sinks
+- Latrine, Toilet, Smart Toilet, Vacuum Toilet -> Toilets
+- Water Butt, Water Tower, Huge Water Tower -> Water Tanks
+- Log Boiler, Gas Boiler, Electric Boiler, Solar Water Heater, Geothermal Water Heater -> Water Heaters
+- Wind Pump, Electric Pump, Pumping Station -> Water Pumps
+- Primitive Well, Water Well, Deep Water Well -> Water Wells
 
 ### Dubs Skylights
 
