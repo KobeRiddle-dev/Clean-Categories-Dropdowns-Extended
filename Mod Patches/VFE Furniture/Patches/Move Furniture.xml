@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Research -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Misc_FileCabinet"]/designationCategory</xpath>
+        <value>
+            <designationCategory>Production</designationCategory>
+        </value>
+    </Operation>
+
+    <!-- Desk Lamp -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Lighting Category</li>
+        </mods>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFE_DeskLamp"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Ferny_Lighting</designationCategory>
+            </value>
+        </match>
+
+        <nomatch Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFE_DeskLamp"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Furniture</designationCategory>
+            </value>
+        </nomatch>
+
+    </Operation>
+
+    <!-- Animal Sarcophagus -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Culture Category</li>
+        </mods>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFE_AnimalSarcophagus"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Ideology</designationCategory>
+            </value>
+        </match>
+
+    </Operation>
+
+    <!-- Dressers -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Bedroom Category</li>
+        </mods>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFE_RoyalWardrobe"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Ferny_Bedroom</designationCategory>
+            </value>
+        </match>
+
+    </Operation>
+</Patch>

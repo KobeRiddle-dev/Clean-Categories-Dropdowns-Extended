@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-    <!-- Tables -->
-
     <!-- Chairs -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="Stool"]</xpath>
+        <xpath>Defs/ThingDef[defName="Stool" or defName="Seat_Bench"]</xpath>
         <value>
-            <designatorDropdown>Ferny_Chairs</designatorDropdown>
+            <designatorDropdown>KobeRiddle_Stools</designatorDropdown>
         </value>
     </Operation>
 
     <!-- Plant pots -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="PlantPot"]</xpath>
+        <xpath>Defs/ThingDef[defName="PlantPot" or defName="VFE_LongPlantPot"]</xpath>
         <value>
             <designatorDropdown>Ferny_PlantPots</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Tables -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Table_1x1c"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_Tables</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Royal Tables -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@ParentName="RoyalTableDesc"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_RoyalTables</designatorDropdown>
         </value>
     </Operation>
 
