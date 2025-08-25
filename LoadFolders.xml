@@ -15,6 +15,7 @@
         <li IfModActive="Rebuild.Cotr.DoorsAndCorners">Mod Patches/Rebuild Doors and Corners</li>
         <li IfModActive="PeteTimesSix.ResearchReinvented.SteppingStones">Mod Patches/Research Reinvented Stepping Stones</li>
         <li IfModActive="Phaneron.Basic.Storage">Mod Patches/Phaneron's Basic Storage</li>
+        <li IfModActive="Syrchalis.Processor.Framework">Mod Patches/Processor Framework</li>
         <li IfModActive="Aelanna.TransparentSubstructure">Mod Patches/Transparent Substructure</li>
         <li IfModActive="VanillaExpanded.VBooksE">Mod Patches/VE Books</li>
         <li IfModActive="VanillaExpanded.VBrewE">Mod Patches/VE Brewing</li>
