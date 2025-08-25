@@ -41,6 +41,10 @@
     </DesignatorDropdownGroupDef>
 
     <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_TextileStorages</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
         <defName>KobeRiddle_WeaponRacks</defName>
     </DesignatorDropdownGroupDef>
 

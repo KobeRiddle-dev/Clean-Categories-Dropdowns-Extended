@@ -29,7 +29,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="ASNeolithicTextileBundleFabric" or defName="ASNeolithicTextileBundleLeather"]</xpath>
         <value>
-            <designatorDropdown>Ferny_HangerShelves</designatorDropdown>
+            <designatorDropdown>KobeRiddle_TextileStorages</designatorDropdown>
         </value>
     </Operation>
 
