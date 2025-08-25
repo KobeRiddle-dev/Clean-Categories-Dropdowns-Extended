@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- ChestFridges -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@ParentName="AnimalBedFurnitureBase"]</xpath>
+        <value>
+            <designatorDropdown>AnimalBeds</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>
