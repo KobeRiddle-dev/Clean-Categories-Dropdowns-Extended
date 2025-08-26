@@ -6,6 +6,20 @@
         <value>
             <designatorDropdown>KobeRiddle_MechGestators</designatorDropdown>
         </value>
-    </Operation>s
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@ParentName="BaseMechCharger"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_MechRechargers</designatorDropdown>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="SubcoreEncoder" or defName="SubcoreSoftscanner" or defName="SubcoreRipscanner"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_SubcoreBenches</designatorDropdown>
+        </value>
+    </Operation>
 
 </Patch>
