@@ -61,6 +61,8 @@
 		<li>OskarPotocki.VFE.Insectoid2</li>
 		<li>VanillaExpanded.VFEMedical</li>
 		<li>OskarPotocki.VFE.Medieval2</li>
+		<li>VanillaExpanded.VFEPower</li>
 		<li>VanillaExpanded.VFEProduction</li>
+		<li>VanillaExpanded.VFESpacer</li>
 	</loadAfter>
 </ModMetaData>

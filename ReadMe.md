@@ -218,7 +218,7 @@ Adds a lot more Dropdowns, while still maintaining the objective of not combinin
 - Glow Pod, Large Glow Pod, Glow Pod Formation, Glow Pod Spire -> Glow Pods
 - Heat Pod, Deep Heater -> Heat Pods
 - Hive Wall, Burrow Wall -> Hive Walls
-- Insect Jelly Wall, Royal Insect Jelly Wall -> Insect Jelly Walls
+- Insect Jelly Wall, Royal Insect Jelly Wall -> Hive Walls
 - Jellyspreader, Royal Jellyspreader -> Jellyspreaders
 - Jelly Farm, Jelly Morpher -> Jelly Reactors
 - Empress Thumper, Titantick Thumper, Teramantis Thumper, Gigamite Thumper, Silverfish Thumper -> Thumpers
@@ -244,14 +244,14 @@ Adds a lot more Dropdowns, while still maintaining the objective of not combinin
 
 ### Vanilla Furniture Expanded: Power
 
+- Advanced Battery, Large Advanced Battery -> Advanced Batteries
+- Battery, Small Battery, Large Battery -> Batteries
+- Chemfuel-powered Generator, Portable Chemfuel-powered Generator, Industrial Chemfuel-powered Generator -> Chemfuel-powered Generators
+- Geothermal Generator, Advanced Geothermal Generator -> Geothermal Generators
+- Watermill Generator, Advanced Watermill Generator -> Hydro Generators
 - Solar Generator, Advanced Solar Generator -> Solar Generators
 - Wind Turbine, Advanced Wind Turbine -> Wind Turbines
-- Geothermal Generator, Advanced Geothermal Generator -> Geothermal Generators
-- Watermill Generator, Advanced Watermill Generator -> Watermill Generators
-- Battery, Small Battery, Large Battery -> Batteries
-- Advanced Battery, Large Advanced Battery -> Advanced Batteries
 - Wood-fired Generator, Portable Wood-fired Generator, Industrial Wood-fired Generator -> Wood-fired Generators
-- Chemfuel-powered Generator, Portable Chemfuel-powered Generator, Industrial Chemfuel-powered Generator -> Chemfuel-powered Generators
 
 ### Vanilla Furniture Expanded: Production
 

@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <!-- Power -->
     <DesignatorDropdownGroupDef>
-        <defName>KobeRiddle_WindGenerators</defName>
+        <defName>KobeRiddle_Batteries</defName>
     </DesignatorDropdownGroupDef>
 
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_BatteriesAdvanced</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_GeneratorsChemfuel</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_GeneratorsGeothermal</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_GeneratorsHydro</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_GeneratorsSolar</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_GeneratorsWind</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_GeneratorsWood</defName>
+    </DesignatorDropdownGroupDef>
 </Defs>

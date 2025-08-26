@@ -38,7 +38,9 @@
         <li IfModActive="OskarPotocki.VFE.Insectoid2">Mod Patches/VFE Insectoids 2</li>
         <li IfModActive="VanillaExpanded.VFEMedical">Mod Patches/VFE Medical</li>
         <li IfModActive="OskarPotocki.VFE.Medieval2">Mod Patches/VFE Medieval 2</li>
+        <li IfModActive="VanillaExpanded.VFEPower">Mod Patches/VFE Power</li>
         <li IfModActive="VanillaExpanded.VFEProduction">Mod Patches/VFE Production</li>
+        <li IfModActive="VanillaExpanded.VFESpacer">Mod Patches/VFE Spacer</li>
 
         <!-- Combo mod patches (alphabetical by folder name) -->
         <li IfModActiveAll="Adaptive.Storage.Neolithic,Phaneron.Basic.Storage">Mod Combo Patches/Adaptive Storage Neolithic Storage + Phaneron's Basic Storage</li>

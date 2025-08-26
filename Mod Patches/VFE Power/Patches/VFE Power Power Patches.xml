@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Batteries -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Battery" or defName="VFE_SmallBattery" or defName="VFE_LargeBattery"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Batteries</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Advanced Batteries -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFE_AdvancedBattery" or defName="VFE_LargeAdvancedBattery"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_BatteriesAdvanced</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Chemfuel Generators -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="ChemfuelPoweredGenerator" or defName="VFE_PortableChemfuelPoweredGenerator" or defName="VFE_IndustrialChemfuelPoweredGenerator"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_GeneratorsChemfuel</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Geothermal Generators -->
+     <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="GeothermalGenerator" or defName="VPE_AdvancedGeothermalGenerator"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_GeneratorsGeothermal</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Hydro Generators -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="WatermillGenerator" or defName="VFE_AdvancedWatermillGenerator" or defName="VFE_TidalGenerator"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_GeneratorsHydro</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Solar Generators -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="SolarGenerator" or defName="VFE_AdvancedSolarGenerator"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_GeneratorsSolar</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Wind Generators -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="WindTurbine" or defName="VFE_AdvancedWindTurbine"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_GeneratorsWind</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Wood Generators -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="WoodFiredGenerator" or defName="VFE_PortableWoodFiredGenerator" or defName="VFE_IndustrialWoodFiredGenerator"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_GeneratorsWood</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>

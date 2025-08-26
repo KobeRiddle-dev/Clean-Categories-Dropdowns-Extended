@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Interactive Tables -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Table_interactive_1x1c" or defName="Table_interactive_2x2c"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_InteractiveTables</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>

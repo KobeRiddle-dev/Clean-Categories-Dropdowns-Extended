@@ -44,12 +44,13 @@
             <li>Bedroom Category</li>
         </mods>
 
-        <match Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[@ParentName="VFE_WardrobeBase"]/designationCategory</xpath>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[@ParentName="VFE_WardrobeBase"]</xpath>
             <value>
                 <designationCategory>Ferny_Bedroom</designationCategory>
             </value>
         </match>
 
     </Operation>
+    
 </Patch>
