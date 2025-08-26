@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Art Linkables -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEM2_StonePolisher" or defName="VFEM2_ArtToolStand"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_LinkablesArt</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Butchering Linkables -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEM2_CleaverRack" or defName="VFEM2_CarvingBoard"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_LinkablesButchering</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Research Linkables -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEM2_NotesStack" or defName="VFEM2_ResearchBoard"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_LinkablesResearch</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Smithing Linkables -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEM2_SmithingAnvil" or defName="VFEM2_ForgeBellows"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_LinkablesSmithing</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Stonecutting Linkables -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEM2_ChiselRack" or defName="VFEM2_StoneClamp"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_LinkablesStonecutting</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Tailoring Linkables -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEM2_TailoringLoom" or defName="VFEM2_MannequinStand"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_LinkablesTailoring</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>
