@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Hearths -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Ideology</li>
+        </mods>
+
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="VFEM2_Hearth" or defName="VFEM2_HearthDarklight"]</xpath>
+            <value>
+                <designatorDropdown>KobeRiddle_Hearths</designatorDropdown>
+            </value>
+        </match>
+
+    </Operation>
+
+</Patch>

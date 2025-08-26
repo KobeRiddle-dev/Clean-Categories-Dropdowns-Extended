@@ -5,4 +5,8 @@
         <defName>KobeRiddle_StonyCampfires</defName>
     </DesignatorDropdownGroupDef>
 
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_Hearths</defName>
+    </DesignatorDropdownGroupDef>
+
 </Defs>
