@@ -7,24 +7,26 @@
             <li>Vanilla Temperature Expanded</li>
         </mods>
         <match Class="PatchOperationSequence">
+            <operations>
 
-            <li Class="PatchOperationConditional">
-                <xpath>Defs/ThingDef[defName="VTE_StandingCooler"]/designatorDropdown</xpath>
+                <li Class="PatchOperationConditional">
+                    <xpath>Defs/ThingDef[defName="VTE_StandingCooler"]/designatorDropdown</xpath>
 
-                <nomatch Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[defName="VTE_StandingCooler"]</xpath>
+                    <nomatch Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[defName="VTE_StandingCooler"]</xpath>
+                        <value>
+                            <designatorDropdown>KobeRiddle_StandingCoolers</designatorDropdown>
+                        </value>
+                    </nomatch>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="VHGE_GasCooler"]</xpath>
                     <value>
                         <designatorDropdown>KobeRiddle_StandingCoolers</designatorDropdown>
                     </value>
-                </nomatch>
-            </li>
-            <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="VHGE_GasCooler"]</xpath>
-                <value>
-                    <designatorDropdown>KobeRiddle_StandingCoolers</designatorDropdown>
-                </value>
-            </li>
+                </li>
 
+            </operations>
         </match>
     </Operation>
 
