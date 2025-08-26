@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Standing Coolers -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Temperature Expanded</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="RB_ACUnitFloor"]</xpath>
+
+            <value>
+                <designatorDropdown>Ferny_ACUnits</designatorDropdown>
+            </value>
+        </match>
+
+    </Operation>
+
+</Patch>
