@@ -35,6 +35,7 @@
         <li IfModActive="VanillaExpanded.VFEArchitect">Mod Patches/VFE Architect</li>
         <li IfModActive="OskarPotocki.VFE.Classical">Mod Patches/VFE Classical</li>
         <li IfModActive="VanillaExpanded.VFECore">Mod Patches/VFE Furniture</li>
+        <li IfModActive="OskarPotocki.VFE.Insectoid2">Mod Patches/VFE Insectoids 2</li>
         <li IfModActive="OskarPotocki.VFE.Medieval2">Mod Patches/VFE Medieval 2</li>
         <li IfModActive="VanillaExpanded.VFEProduction">Mod Patches/VFE Production</li>
 

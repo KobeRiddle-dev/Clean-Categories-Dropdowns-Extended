@@ -215,11 +215,12 @@ Adds a lot more Dropdowns, while still maintaining the objective of not combinin
 ### Vanilla Factions Expanded: Insectoids 2
 
 - Artificial Basic Hive, Artificial Sorne Hive, Artificial Nuchadus Hive, Artificial Chelis hive, Artificial Kemian Hive, Artificial Xanides Hive -> Artificial Hives
-- Heat Pod, Deep Heater -> Heat Pods
 - Glow Pod, Large Glow Pod, Glow Pod Formation, Glow Pod Spire -> Glow Pods
-- Jellyspreader, Royal Jellyspreader -> Jellyspreaders
+- Heat Pod, Deep Heater -> Heat Pods
 - Hive Wall, Burrow Wall -> Hive Walls
 - Insect Jelly Wall, Royal Insect Jelly Wall -> Insect Jelly Walls
+- Jellyspreader, Royal Jellyspreader -> Jellyspreaders
+- Jelly Farm, Jelly Morpher -> Jelly Reactors
 - Empress Thumper, Titantick Thumper, Teramantis Thumper, Gigamite Thumper, Silverfish Thumper -> Thumpers
 
 ### Vanilla Furniture Expanded

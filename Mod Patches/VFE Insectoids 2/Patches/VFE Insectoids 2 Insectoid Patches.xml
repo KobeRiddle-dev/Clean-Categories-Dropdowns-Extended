@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Artificial Hives -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEI2_ArtificialBasicHive" or defName="VFEI2_ArtificialSorneHive" or defName="VFEI2_ArtificialNuchadusHive" 
+            or defName="VFEI2_ArtificialChelisHive" or defName="VFEI2_ArtificialKemianHive" or defName="VFEI2_ArtificialXanidesHive"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_ArtificialHives</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Glowpods -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="GlowPod" or defName="VFEI2_LargeGlowPod" or defName="VFEI2_GlowPodFormation" 
+            or defName="VFEI2_GlowPodSpire"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_GlowPods</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Heat -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEI2_HeatPod" or defName="VFEI2_DeepHeater"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_HeatPods</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Hive Walls -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEI_HiveWall" or defName="VFEI_HivestoneWall"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_HiveWalls</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Jelly Walls -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEI2_InsectJellyWall" or defName="VFEI2_RoyalJellyWall"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_JellyWalls</designatorDropdown>
+        </value>
+    </Operation>VFEI2_Jellyspreader
+
+    <!-- Jellyspreaders -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEI2_Jellyspreader" or defName="VFEI2_RoyalJellyspreader"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Jellyspreaders</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Jelly Reactors -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEI2_JellyFarm" or defName="VFEI2_JellyMorpher"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_JellyReactors</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>
