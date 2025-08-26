@@ -3,7 +3,7 @@
 
     <!-- Animal Beds -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[@ParentName="AnimalBedFurnitureBase"]</xpath>
+        <xpath>Defs/ThingDef[defName="AnimalSleepingSpot" or @ParentName="AnimalBedFurnitureBase"]</xpath>
         <value>
             <designatorDropdown>AnimalBeds</designatorDropdown>
         </value>
