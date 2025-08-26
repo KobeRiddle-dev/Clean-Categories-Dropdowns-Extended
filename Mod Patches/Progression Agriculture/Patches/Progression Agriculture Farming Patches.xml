@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-    <!-- Observation Glass Walls -->
+    <!-- Seed Packing -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[@ParentName="Museums_GlassWall"]</xpath>
+        <xpath>Defs/ThingDef[defName="SeedPackingBench" or defName="SeedPackingCraftingSpot"]</xpath>
         <value>
             <designatorDropdown>KobeRiddle_SeedPackingBenches</designatorDropdown>
         </value>
