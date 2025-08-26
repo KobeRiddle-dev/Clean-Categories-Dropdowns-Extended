@@ -17,6 +17,8 @@
         <li IfModActive="sbz.GravshipStorage">Mod Patches/Gravship Storage</li>
         <li IfModActive="Harkon.BiotechAddon.MedievalDeathrestCoffin">Mod Patches/Medieval Deathrest Coffin</li>
         <li IfModActive="Animal.BedsNew">Mod Patches/More Animal Beds</li>
+        <li IfModActive="Nightmare.Museums">Mod Patches/Museums</li>
+        <li IfModActive="Ferny.ProgressionAgriculture">Mod Patches/Progression Agriculture</li>
         <li IfModActive="sbz.NeatStorage">Mod Patches/Neat Storage</li>
         <li IfModActive="Rebuild.Cotr.DoorsAndCorners">Mod Patches/Rebuild Doors and Corners</li>
         <li IfModActive="PeteTimesSix.ResearchReinvented.SteppingStones">Mod Patches/Research Reinvented Stepping Stones</li>
