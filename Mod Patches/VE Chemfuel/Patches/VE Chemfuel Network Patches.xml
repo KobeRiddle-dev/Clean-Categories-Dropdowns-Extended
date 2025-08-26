@@ -10,7 +10,7 @@
     </Operation>
 
     <!-- DeepChem Pipes -->
-     <Operation Class="PatchOperationAdd">
+    <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="VCHE_DeepchemPipe" or defName="VCHE_UndergroundDeepchemPipe"]</xpath>
         <value>
             <designatorDropdown>KobeRiddle_DeepChemPipes</designatorDropdown>

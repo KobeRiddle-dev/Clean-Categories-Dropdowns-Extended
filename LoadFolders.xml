@@ -31,6 +31,7 @@
         <li IfModActive="VanillaExpanded.HelixienGas">Mod Patches/VE Helixien Gas</li>
         <li IfModActive="VanillaExpanded.VNutrientE">Mod Patches/VE Nutrient Paste</li>
         <li IfModActive="VanillaExpanded.VCookEStews">Mod Patches/VE Stews</li>
+        <li IfModActive="VanillaExpanded.Temperature">Mod Patches/VE Temperature</li>
         <li IfModActive="VanillaExpanded.VFEArchitect">Mod Patches/VFE Architect</li>
         <li IfModActive="OskarPotocki.VFE.Classical">Mod Patches/VFE Classical</li>
         <li IfModActive="VanillaExpanded.VFECore">Mod Patches/VFE Furniture</li>

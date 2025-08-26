@@ -32,6 +32,8 @@ Adds a lot more Dropdowns, while still maintaining the objective of not combinin
 
 - IED Tox Trap -> IED Traps
 - Mech Gestator, Large Mech Gestator -> Mech Gestators
+- Mech Recharger, Large Mech Recharger -> Mech Rechargers
+- Subcore Encoder, Subcore Softscanner, Subcore Ripscanner -> Subcore Benches
 
 ### Anomaly
 
@@ -64,6 +66,7 @@ Adds a lot more Dropdowns, while still maintaining the objective of not combinin
 - Deep Fryer, Chemfuel Deep Fryer, Air Fryer -> Fryers
 - Electric Grill, Grill -> Grills
 - Electric Pot, Chemfuel Pot -> Soup Pots
+- Chemfuel Heater, Electric Heater -> Standing Heaters
 
 ### Dubs Bad Hygiene
 
@@ -173,6 +176,8 @@ Adds a lot more Dropdowns, while still maintaining the objective of not combinin
 
 - Electric Crematorium, Gas Crematorium -> Crematoriums
 - Gas-powered Stove -> Stoves
+- Gas Heater, Electric Heater -> Standing Heaters
+- Gas Cooler, Standing Cooler -> Standing Coolers
 - Biofuel Refinery, Gas-powered Refinery -> Biofuel Refineries
 - Gas Pipe, Hidden Gas Pipe -> Gas Pipes
 - Standing Cooler, Gas Cooler -> Standing Coolers
@@ -265,6 +270,9 @@ Adds a lot more Dropdowns, while still maintaining the objective of not combinin
 
 ### Vanilla Temperature Expanded
 
-- Standing Cooler, Gas Cooler -> Standing Coolers
 - Air Duct, Subterranean Air Duct -> Air Ducts
 - AC Compressor, Large AC Compressor -> AC Compressors
+- Floor AC Unit, AC Unit -> AC Units
+- Industrial Cooler, Cooler -> Coolers
+- Industrial Heater, Heater -> Heaters
+- Standing Cooler, Gas Cooler -> Standing Coolers

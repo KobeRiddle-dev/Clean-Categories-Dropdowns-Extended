@@ -9,4 +9,12 @@
         <defName>KobeRiddle_Hearths</defName>
     </DesignatorDropdownGroupDef>
 
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_StandingCoolers</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_StandingHeaters</defName>
+    </DesignatorDropdownGroupDef>
+
 </Defs>

@@ -6,7 +6,7 @@
         <nomatch Class="PatchOperationAdd">
             <xpath>Defs/ThingDef[defName="PlantPot"]</xpath>
             <value>
-                <designatorDropdown>KobeRiddle_PlantPots</designatorDropdown>
+                <designatorDropdown>Ferny_PlantPots</designatorDropdown>
             </value>
         </nomatch>
     </Operation>
@@ -14,7 +14,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="PlantPot_Bonsai"]</xpath>
         <value>
-            <designatorDropdown>KobeRiddle_PlantPots</designatorDropdown>
+            <designatorDropdown>Ferny_PlantPots</designatorDropdown>
         </value>
     </Operation>
 
