@@ -37,11 +37,11 @@
 
     <!-- Jelly Walls -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="VFEI2_InsectJellyWall" or defName="VFEI2_RoyalJellyWall"]</xpath>
+        <xpath>Defs/ThingDef[defName="VFEI2_InsectJellyWall" or defName="VFEI_BurrowWall"]</xpath>
         <value>
             <designatorDropdown>KobeRiddle_JellyWalls</designatorDropdown>
         </value>
-    </Operation>VFEI2_Jellyspreader
+    </Operation>
 
     <!-- Jellyspreaders -->
     <Operation Class="PatchOperationAdd">
@@ -56,6 +56,14 @@
         <xpath>Defs/ThingDef[defName="VFEI2_JellyFarm" or defName="VFEI2_JellyMorpher"]</xpath>
         <value>
             <designatorDropdown>KobeRiddle_JellyReactors</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Thumpers -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@ParentName="VFEI2_ThumperBase"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Thumpers</designatorDropdown>
         </value>
     </Operation>
 
