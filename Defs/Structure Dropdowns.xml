@@ -18,4 +18,8 @@
         <defName>KobeRiddle_Fences</defName>
     </DesignatorDropdownGroupDef>
 
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_CastleWalls</defName>
+    </DesignatorDropdownGroupDef>
+
 </Defs>
