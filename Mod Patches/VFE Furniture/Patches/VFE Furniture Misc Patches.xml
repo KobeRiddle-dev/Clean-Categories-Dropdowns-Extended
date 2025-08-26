@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-    <!-- Tables -->
-
-    <!-- Chairs -->
+    <!-- Bins -->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Bin_Large" or defName="Bin_Small"]</xpath>
         <value>
