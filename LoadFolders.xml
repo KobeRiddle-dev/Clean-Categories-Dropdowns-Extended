@@ -27,6 +27,7 @@
         <li IfModActive="Aelanna.TransparentSubstructure">Mod Patches/Transparent Substructure</li>
         <li IfModActive="VanillaExpanded.VBooksE">Mod Patches/VE Books</li>
         <li IfModActive="VanillaExpanded.VBrewE">Mod Patches/VE Brewing</li>
+        <li IfModActive="VanillaExpanded.VChemfuelE">Mod Patches/VE Chemfuel</li>
         <li IfModActive="VanillaExpanded.HelixienGas">Mod Patches/VE Helixien Gas</li>
         <li IfModActive="VanillaExpanded.VNutrientE">Mod Patches/VE Nutrient Paste</li>
         <li IfModActive="VanillaExpanded.VCookEStews">Mod Patches/VE Stews</li>

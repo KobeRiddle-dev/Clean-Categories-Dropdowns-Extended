@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Chemfuel Pipes -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VCHE_ChemfuelPipe" or defName="VCHE_UndergroundChemfuelPipe"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_ChemfuelPipes</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- DeepChem Pipes -->
+     <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VCHE_DeepchemPipe" or defName="VCHE_UndergroundDeepchemPipe"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_DeepChemPipes</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>
