@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Research Linkables -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Factions Expanded - Medieval 2</li>
+            <li>Vanilla Furniture Expanded</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Facility_ResearchCounter"]</xpath>
+            <value>
+                <designatorDropdown>KobeRiddle_LinkablesResearch</designatorDropdown>
+            </value>
+        </match>
+    </Operation>
+
+</Patch>
