@@ -29,7 +29,7 @@
 
     <!-- Hive Walls -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="VFEI_HiveWall" or defName="VFEI_HivestoneWall"]</xpath>
+        <xpath>Defs/ThingDef[defName="VFEI_HiveWall" or defName="VFEI_HivestoneWall" or defName="VFEI_BurrowWall"]</xpath>
         <value>
             <designatorDropdown>KobeRiddle_HiveWalls</designatorDropdown>
         </value>
@@ -37,9 +37,9 @@
 
     <!-- Jelly Walls -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="VFEI2_InsectJellyWall" or defName="VFEI_BurrowWall"]</xpath>
+        <xpath>Defs/ThingDef[defName="VFEI2_InsectJellyWall" or defName="VFEI2_RoyalJellyWall"]</xpath>
         <value>
-            <designatorDropdown>KobeRiddle_JellyWalls</designatorDropdown>
+            <designatorDropdown>KobeRiddle_HiveWalls</designatorDropdown>
         </value>
     </Operation>
 
