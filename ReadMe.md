@@ -280,6 +280,11 @@ Adds a lot more Dropdowns, while still maintaining the objective of not combinin
 
 ## Planned Patches
 
+### Aquariums
+- Aquarium Compact Temperature Control, Aquarium Temperature Control -> Aquarium Temperature Controls
+- Aquarium Filter, Aquarium Auto Cleaner -> Aquarium Filters
+- Aquarium Compact Nutrition Control, Aquarium Nutrition Control -> Aquarium Nutrition Controls
+
 ### Vanilla Vehicles Expanded
 - Armored Car, APC -> Armored Vehicles
 - Small Boat, Large Boat -> Boats
