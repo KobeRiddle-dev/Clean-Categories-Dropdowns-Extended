@@ -277,3 +277,19 @@ Adds a lot more Dropdowns, while still maintaining the objective of not combinin
 - Industrial Cooler, Cooler -> Coolers
 - Industrial Heater, Heater -> Heaters
 - Standing Cooler, Gas Cooler -> Standing Coolers
+
+## Planned Patches
+
+### Vanilla Vehicles Expanded
+- Armored Car, APC -> Armored Vehicles
+- Small Boat, Large Boat -> Boats
+- Basic Car, Family Car -> Cars
+- Dirtbike, Off-Roader -> Off-Road Vehicles
+- Aeroplane, Fighter Plane -> Planes
+- Pickup Truck, Small Truck, Large Truck -> Trucks
+- Rocket Pod, Siege Pod -> Rocket Pods
+- Light Tank, Medium Tank, Flame Tank -> Tanks
+- Small Van, Large Van -> Vans
+
+### Vehicle Map Framework
+- Driver Seat, Gunner Seat, Passenger Seat -> Vehicle Seats
