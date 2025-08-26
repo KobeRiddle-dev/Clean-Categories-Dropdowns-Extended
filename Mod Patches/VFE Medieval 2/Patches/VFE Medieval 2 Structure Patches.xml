@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Castle Walls -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEM2_CastleWall" or defName="VFEM2_LowCastleWall"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_CastleWalls</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>
