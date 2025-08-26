@@ -42,6 +42,7 @@
         <li IfModActiveAll="sbz.NeatStorage,Phaneron.Basic.Storage">Mod Combo Patches/Neat Storage + Phaneron's Basic Storage</li>
         <li IfModActiveAll="Rebuild.Cotr.DoorsAndCorners,VanillaExpanded.VFEArchitect">Mod Combo Patches/Rebuild Doors and Corners + VFE Architect</li>
         <li IfModActiveAll="OskarPotocki.VFE.Medieval2,VanillaExpanded.VFECore">Mod Combo Patches/VFE Medieval 2 + VFE Furniture</li>
+        <li IfModActiveAll="OskarPotocki.VFE.Medieval2,VanillaExpanded.VFEProduction">Mod Combo Patches/VFE Medieval 2 + VFE Production</li>
 
 
     </v1.6>

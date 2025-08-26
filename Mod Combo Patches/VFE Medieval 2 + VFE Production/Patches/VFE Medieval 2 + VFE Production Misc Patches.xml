@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Smithing Linkables -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFE_SmithyCabinet"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_LinkablesSmithing</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Tailoring Linkables -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFE_TailorCabinet"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_LinkablesTailoring</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>
