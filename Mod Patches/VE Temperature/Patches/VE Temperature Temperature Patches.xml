@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Air ducts -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VTE_AirDuct" or defName="VTE_UndergroundAirDuct"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_AirDucts</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- AC Compressors -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VTE_ACCompressor" or defName="VTE_LargeACCompressor"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_ACCompressors</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Heaters -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VTE_IndustrialHeater"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_Heaters</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Coolers -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VTE_IndustrialCooler"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_Coolers</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>
