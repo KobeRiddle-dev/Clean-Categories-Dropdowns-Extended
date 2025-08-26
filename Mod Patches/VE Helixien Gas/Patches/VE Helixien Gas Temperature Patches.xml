@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Standing Coolers -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Temperature Expanded</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="VTE_StandingCooler"]/designatorDropdown</xpath>
+
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="VTE_StandingCooler"]</xpath>
+                    <value>
+                        <designatorDropdown>KobeRiddle_StandingCoolers</designatorDropdown>
+                    </value>
+                </nomatch>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="VHGE_GasCooler"]</xpath>
+                <value>
+                    <designatorDropdown>KobeRiddle_StandingCoolers</designatorDropdown>
+                </value>
+            </li>
+
+            <li Class="PatchOperationConditional">
+                <xpath>Defs/ThingDef[defName="Heater"]/designatorDropdown</xpath>
+
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Heater"]</xpath>
+                    <value>
+                        <designatorDropdown>KobeRiddle_StandingHeaters</designatorDropdown>
+                    </value>
+                </nomatch>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="VHGE_GasHeater"]</xpath>
+                <value>
+                    <designatorDropdown>KobeRiddle_StandingHeaters</designatorDropdown>
+                </value>
+            </li>
+
+        </match>
+    </Operation>
+
+    <!-- Standing Heaters -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="Heater"]/designatorDropdown</xpath>
+
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Heater"]</xpath>
+            <value>
+                <designatorDropdown>KobeRiddle_StandingHeaters</designatorDropdown>
+            </value>
+        </nomatch>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VHGE_GasHeater"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_StandingHeaters</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>
