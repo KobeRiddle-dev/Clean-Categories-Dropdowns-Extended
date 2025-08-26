@@ -21,7 +21,7 @@
         </nomatch>
     </Operation>
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="VHGE_GasHeater"]</xpath>
+        <xpath>Defs/ThingDef[defName="CAS_ChemfuelHeater"]</xpath>
         <value>
             <designatorDropdown>KobeRiddle_StandingHeaters</designatorDropdown>
         </value>
