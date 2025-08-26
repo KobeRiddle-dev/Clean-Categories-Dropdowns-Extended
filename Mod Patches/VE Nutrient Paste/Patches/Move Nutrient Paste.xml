@@ -23,4 +23,19 @@
 
     </Operation>
 
+    <!-- Deconstruction Designator -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Progression: Kitchen</li>
+        </mods>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/PipeSystem.PipeNetDef[defName="VNPE_NutrientPasteNet"]/designator/designationCategoryDef</xpath>
+            <value>
+                <designationCategoryDef>Ferny_Kitchen</designationCategoryDef>
+            </value>
+        </match>
+
+    </Operation>
+
 </Patch>
