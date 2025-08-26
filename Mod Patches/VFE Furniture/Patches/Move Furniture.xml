@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-    <!-- Research -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="Misc_FileCabinet"]/designationCategory</xpath>
-        <value>
-            <designationCategory>Production</designationCategory>
-        </value>
-    </Operation>
-
     <!-- Desk Lamp -->
     <Operation Class="PatchOperationFindMod">
         <mods>
@@ -46,14 +38,14 @@
 
     </Operation>
 
-    <!-- Dressers -->
+    <!-- Wardrobes -->
     <Operation Class="PatchOperationFindMod">
         <mods>
             <li>Bedroom Category</li>
         </mods>
 
         <match Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName="VFE_RoyalWardrobe"]/designationCategory</xpath>
+            <xpath>Defs/ThingDef[@ParentName="VFE_WardrobeBase"]/designationCategory</xpath>
             <value>
                 <designationCategory>Ferny_Bedroom</designationCategory>
             </value>
