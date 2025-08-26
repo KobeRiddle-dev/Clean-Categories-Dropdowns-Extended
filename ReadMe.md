@@ -1,8 +1,12 @@
-# Description
+# Clean Categories: Dropdowns *Extended*
 
 An Extension to Ferny's [Clean Categories: Dropdowns](https://steamcommunity.com/sharedfiles/filedetails/?id=3455529827).
 
 Adds a lot more Dropdowns, while still maintaining the objective of not combining so much as to be confusing.
+
+Dropdowns are added for different sizes of the same building, hidden/unhidden versions of conduits, pipes, etc., and variants of the same building (such as IED Traps, or Televisions).
+
+Feedback is welcome! I want the groupings to be as intuitive as possible, so if you have suggestions for better groupings, or if you think something should be added or removed, please let me know in the comments.
 
 ## Patches
 
