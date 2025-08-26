@@ -59,6 +59,7 @@
 		<li>OskarPotocki.VFE.Classical</li>
 		<li>VanillaExpanded.VFECore</li>
 		<li>OskarPotocki.VFE.Insectoid2</li>
+		<li>VanillaExpanded.VFEMedical</li>
 		<li>OskarPotocki.VFE.Medieval2</li>
 		<li>VanillaExpanded.VFEProduction</li>
 	</loadAfter>
