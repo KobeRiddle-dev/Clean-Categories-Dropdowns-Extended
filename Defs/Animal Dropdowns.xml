@@ -5,8 +5,4 @@
         <defName>AnimalBeds</defName>
     </DesignatorDropdownGroupDef>
 
-    <DesignatorDropdownGroupDef>
-        <defName>KobeRiddle_DeathrestCaskets</defName>
-    </DesignatorDropdownGroupDef>
-
 </Defs>
