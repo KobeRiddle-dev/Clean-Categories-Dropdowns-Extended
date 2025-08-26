@@ -9,4 +9,19 @@
         </value>
     </Operation>
 
+    <!-- Wardrobes -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Bedroom Category</li>
+        </mods>
+
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="VFES_Table_IlluminatedWardrobe"]</xpath>
+            <value>
+                <designationCategory>Ferny_Bedroom</designationCategory>
+            </value>
+        </match>
+
+    </Operation>
+
 </Patch>
