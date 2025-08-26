@@ -3,7 +3,7 @@
 
     <!-- Deathrest Caskets -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="DeathrestCasket" or defName="DeathrestBasicCoffin" or defNme="DeathrestCoffin"]</xpath>
+        <xpath>Defs/ThingDef[defName="DeathrestCasket" or defName="DeathrestBasicCoffin" or defName="DeathrestCoffin"]</xpath>
         <value>
             <designatorDropdown>KobeRiddle_DeathrestCaskets</designatorDropdown>
         </value>
