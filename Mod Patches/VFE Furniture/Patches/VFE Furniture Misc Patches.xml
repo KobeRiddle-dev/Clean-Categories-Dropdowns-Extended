@@ -9,4 +9,18 @@
         </value>
     </Operation>
 
+    <!-- Research Linkables -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Factions Expanded - Medieval 2</li>
+            <li>Vanilla Furniture Expanded - Medical Module</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Misc_FileCabinet"]</xpath>
+            <value>
+                <designatorDropdown>KobeRiddle_LinkablesResearch</designatorDropdown>
+            </value>
+        </match>
+    </Operation>
+
 </Patch>
