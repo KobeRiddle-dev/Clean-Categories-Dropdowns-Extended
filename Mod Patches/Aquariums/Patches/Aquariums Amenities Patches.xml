@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Aquarium Cleaners -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Aqua_Filter" or defName="Aqua_AutoCleaner"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_AquariumCleaners</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Aquarium Nutrition Controls -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Aqua_CompactNutritionControl" or defName="Aqua_NutritionControl"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_AquariumNutritionControls</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Aquarium Temperature Controls -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Aqua_CompactTemperatureControl" or defName="Aqua_TemperatureControl"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_AquariumTemperatureControls</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>

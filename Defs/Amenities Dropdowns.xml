@@ -5,4 +5,16 @@
         <defName>KobeRiddle_ObservationGlassWalls</defName>
     </DesignatorDropdownGroupDef>
 
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_AquariumCleaners</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_AquariumNutritionControls</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_AquariumTemperatureControls</defName>
+    </DesignatorDropdownGroupDef>
+
 </Defs>

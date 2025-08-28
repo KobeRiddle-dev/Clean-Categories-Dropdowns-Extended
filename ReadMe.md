@@ -53,6 +53,11 @@ Feedback is welcome! I want the groupings to be as intuitive as possible, so if 
 - Log Pile Spot, Large Log Pile Spot -> Log Piles
 - Woven Basket (1x), Woven Basket (2x), Woven Basket (3x) -> Woven Baskets
 
+### Aquariums
+- Aquarium Compact Temperature Control, Aquarium Temperature Control -> Aquarium Temperature Controls
+- Aquarium Filter, Aquarium Auto Cleaner -> Aquarium Cleaners
+- Aquarium Compact Nutrition Control, Aquarium Nutrition Control -> Aquarium Nutrition Controls
+
 ### Adaptive Storage Neolithic
 
 - Wooden Basket, Cloth Basket -> Baskets
@@ -283,11 +288,6 @@ Feedback is welcome! I want the groupings to be as intuitive as possible, so if 
 - Standing Cooler, Gas Cooler -> Standing Coolers
 
 ## Planned Patches
-
-### Aquariums
-- Aquarium Compact Temperature Control, Aquarium Temperature Control -> Aquarium Temperature Controls
-- Aquarium Filter, Aquarium Auto Cleaner -> Aquarium Filters
-- Aquarium Compact Nutrition Control, Aquarium Nutrition Control -> Aquarium Nutrition Controls
 
 ### Vanilla Vehicles Expanded
 - Armored Car, APC -> Armored Vehicles

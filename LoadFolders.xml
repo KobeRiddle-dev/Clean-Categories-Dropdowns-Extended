@@ -8,6 +8,7 @@
         <li IfModActive="Ludeon.Rimworld.Odyssey">Mod Patches/Odyssey</li>
 
         <!-- Mod Patches (alphabetical by folder name) -->
+        <li IfModActive="Nightmare.Aquariums">Mod Patches/Aquariums</li>
         <li IfModActive="Adaptive.PrimitiveStorage">Mod Patches/Adaptive Primitive Storage</li>
         <li IfModActive="Adaptive.Storage.Neolithic">Mod Patches/Adaptive Storage Neolithic</li>
         <li IfModActive="ScpChemfuel.Appliances">Mod Patches/Appliances Expanded</li>
