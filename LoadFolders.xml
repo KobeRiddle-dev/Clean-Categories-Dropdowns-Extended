@@ -33,6 +33,7 @@
         <li IfModActive="VanillaExpanded.VNutrientE">Mod Patches/VE Nutrient Paste</li>
         <li IfModActive="VanillaExpanded.VCookEStews">Mod Patches/VE Stews</li>
         <li IfModActive="VanillaExpanded.Temperature">Mod Patches/VE Temperature</li>
+        <li IfModActive="OskarPotocki.VanillaVehiclesExpanded">Mod Patches/VE Vehicles</li>
         <li IfModActive="VanillaExpanded.VFEArchitect">Mod Patches/VFE Architect</li>
         <li IfModActive="OskarPotocki.VFE.Classical">Mod Patches/VFE Classical</li>
         <li IfModActive="VanillaExpanded.VFECore">Mod Patches/VFE Furniture</li>
