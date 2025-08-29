@@ -295,7 +295,7 @@ Feedback is welcome! I want the groupings to be as intuitive as possible, so if 
 - Small Boat (Dinghy), Large Boat (Trawler) -> Boats
 - Basic Car (Traveller), Family Car (Wagon) -> Cars
 - Dirtbike (Dirtbike), Off-Roader (Prowler) -> Off-Road Vehicles
-- Pickup Truck (Roadkill), Small Truck (Mule), Large Truck (Wisent) -> Trucks
+- Pickup Truck (Roadrunner), Small Truck (Mule), Large Truck (Wisent) -> Trucks
 - Rocket Pod (Frog), Siege Pod (Toad) -> Rocket Pods
 - Light Tank (Roadkill), Medium Tank (Bulldog), Flame Tank (Bunsen) -> Tanks
 - Small Van (Bangbus), Large Van (Snatcher) -> Vans
