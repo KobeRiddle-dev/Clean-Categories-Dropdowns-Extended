@@ -26,24 +26,25 @@
         <li IfModActive="Phaneron.Basic.Storage">Mod Patches/Phaneron's Basic Storage</li>
         <li IfModActive="Syrchalis.Processor.Framework">Mod Patches/Processor Framework</li>
         <li IfModActive="Aelanna.TransparentSubstructure">Mod Patches/Transparent Substructure</li>
-        <li IfModActive="VanillaExpanded.VBooksE">Mod Patches/VE Books</li>
-        <li IfModActive="VanillaExpanded.VBrewE">Mod Patches/VE Brewing</li>
-        <li IfModActive="VanillaExpanded.VChemfuelE">Mod Patches/VE Chemfuel</li>
-        <li IfModActive="VanillaExpanded.HelixienGas">Mod Patches/VE Helixien Gas</li>
-        <li IfModActive="VanillaExpanded.VNutrientE">Mod Patches/VE Nutrient Paste</li>
-        <li IfModActive="VanillaExpanded.VCookEStews">Mod Patches/VE Stews</li>
-        <li IfModActive="VanillaExpanded.Temperature">Mod Patches/VE Temperature</li>
-        <li IfModActive="OskarPotocki.VanillaVehiclesExpanded">Mod Patches/VE Vehicles</li>
         <li IfModActive="OELS.VehicleMapFramework">Mod Patches/Vehicle Map Framework</li>
-        <li IfModActive="VanillaExpanded.VFEArchitect">Mod Patches/VFE Architect</li>
-        <li IfModActive="OskarPotocki.VFE.Classical">Mod Patches/VFE Classical</li>
-        <li IfModActive="VanillaExpanded.VFECore">Mod Patches/VFE Furniture</li>
-        <li IfModActive="OskarPotocki.VFE.Insectoid2">Mod Patches/VFE Insectoids 2</li>
-        <li IfModActive="VanillaExpanded.VFEMedical">Mod Patches/VFE Medical</li>
-        <li IfModActive="OskarPotocki.VFE.Medieval2">Mod Patches/VFE Medieval 2</li>
-        <li IfModActive="VanillaExpanded.VFEPower">Mod Patches/VFE Power</li>
-        <li IfModActive="VanillaExpanded.VFEProduction">Mod Patches/VFE Production</li>
-        <li IfModActive="VanillaExpanded.VFESpacer">Mod Patches/VFE Spacer</li>
+        <!-- Vanilla Expanded -->
+        <li IfModActive="VanillaExpanded.VBooksE">Mod Patches/Vanilla Expanded/VE Books</li>
+        <li IfModActive="VanillaExpanded.VBrewE">Mod Patches/Vanilla Expanded/VE Brewing</li>
+        <li IfModActive="VanillaExpanded.VChemfuelE">Mod Patches/Vanilla Expanded/VE Chemfuel</li>
+        <li IfModActive="VanillaExpanded.HelixienGas">Mod Patches/Vanilla Expanded/VE Helixien Gas</li>
+        <li IfModActive="VanillaExpanded.VNutrientE">Mod Patches/Vanilla Expanded/VE Nutrient Paste</li>
+        <li IfModActive="VanillaExpanded.VCookEStews">Mod Patches/Vanilla Expanded/VE Stews</li>
+        <li IfModActive="VanillaExpanded.Temperature">Mod Patches/Vanilla Expanded/VE Temperature</li>
+        <li IfModActive="OskarPotocki.VanillaVehiclesExpanded">Mod Patches/Vanilla Expanded/VE Vehicles</li>
+        <li IfModActive="VanillaExpanded.VFEArchitect">Mod Patches/Vanilla Expanded/VFE Architect</li>
+        <li IfModActive="OskarPotocki.VFE.Classical">Mod Patches/Vanilla Expanded/VFE Classical</li>
+        <li IfModActive="VanillaExpanded.VFECore">Mod Patches/Vanilla Expanded/VFE Furniture</li>
+        <li IfModActive="OskarPotocki.VFE.Insectoid2">Mod Patches/Vanilla Expanded/VFE Insectoids 2</li>
+        <li IfModActive="VanillaExpanded.VFEMedical">Mod Patches/Vanilla Expanded/VFE Medical</li>
+        <li IfModActive="OskarPotocki.VFE.Medieval2">Mod Patches/Vanilla Expanded/VFE Medieval 2</li>
+        <li IfModActive="VanillaExpanded.VFEPower">Mod Patches/Vanilla Expanded/VFE Power</li>
+        <li IfModActive="VanillaExpanded.VFEProduction">Mod Patches/Vanilla Expanded/VFE Production</li>
+        <li IfModActive="VanillaExpanded.VFESpacer">Mod Patches/Vanilla Expanded/VFE Spacer</li>
         
         <!-- Combo mod patches (alphabetical by folder name) -->
         <li IfModActiveAll="Adaptive.Storage.Neolithic,Phaneron.Basic.Storage">Mod Combo Patches/Adaptive Storage Neolithic Storage + Phaneron's Basic Storage</li>
