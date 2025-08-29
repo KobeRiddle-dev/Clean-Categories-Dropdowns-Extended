@@ -302,4 +302,7 @@ Feedback is welcome! I want the groupings to be as intuitive as possible, so if 
 - Small Van (Bangbus), Large Van (Snatcher) -> Vans
 
 ### Vehicle Map Framework
-- Driver Seat, Gunner Seat, Passenger Seat -> Vehicle Seats
+- Ladder, Ramp, Zipline Turret -> Map Vehicle Access
+- Pipe Connector, Wireless Chargers -> Map Vehicle Connectors
+- Driver Seat, Gunner Seat, Passenger Seat -> Map Vehicle Seats
+- Lift Fan, Turbocharger -> Map Vehicle Payload Upgrades

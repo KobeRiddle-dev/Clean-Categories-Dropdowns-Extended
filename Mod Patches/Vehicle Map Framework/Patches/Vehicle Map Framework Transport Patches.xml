@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Map Vehicle Access -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/Vehicles.VehicleBuildDef[defName="VMF_Turret_ZiplineTurret" or defName="VMF_Ladder" or @ParentName="VehicleRampBase"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_MapVehicleAccess</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Map Vehicle Connectors -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/Vehicles.VehicleBuildDef[defName="VMF_PipeConnector"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_MapVehicleConnectors</designatorDropdown>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/Vehicles.VehicleBuildDef[defName="VMF_WirelessTransmitter" or defName="VMF_WirelessReceiver"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_MapVehicleConnectors</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Map Vehicle Payload Upgrades -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/Vehicles.VehicleBuildDef[defName="VMF_TurboCharger" or defName="VMF_LiftFan"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_MapVehiclePayloadUpgrades</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Map Vehicle Seats -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/Vehicles.VehicleBuildDef[@ParentName="VehicleSeatBase"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_MapVehicleSeats</designatorDropdown>
+        </value>
+    </Operation>
+
+</Patch>
