@@ -6,28 +6,31 @@
         <li IfModActive="Ludeon.Rimworld.Ideology">Mod Patches/Ludeon/Ideology</li>
         <li IfModActive="Ludeon.Rimworld.Biotech">Mod Patches/Ludeon/Biotech</li>
         <li IfModActive="Ludeon.Rimworld.Odyssey">Mod Patches/Ludeon/Odyssey</li>
+
+        <!-- Adaptive Storage Mod Patches -->
+        <li IfModActive="Adaptive.PrimitiveStorage">Mod Patches/Adaptive Storage Mods/Adaptive Primitive Storage</li>
+        <li IfModActive="Adaptive.Storage.Neolithic">Mod Patches/Adaptive Storage Mods/Adaptive Storage Neolithic</li>
+        <li IfModActive="sbz.NeatStorageFridge">Mod Patches/Adaptive Storage Mods/Fridge</li>
+        <li IfModActive="sbz.GravshipStorage">Mod Patches/Adaptive Storage Mods/Gravship Storage</li>
+        <li IfModActive="sbz.NeatStorage">Mod Patches/Adaptive Storage Mods/Neat Storage</li>
+        <li IfModActive="Phaneron.Basic.Storage">Mod Patches/Adaptive Storage Mods/Phaneron's Basic Storage</li>
         
-        <!-- Mod Patches (alphabetical by folder name) -->
-        <li IfModActive="Nightmare.Aquariums">Mod Patches/Aquariums</li>
-        <li IfModActive="Adaptive.PrimitiveStorage">Mod Patches/Adaptive Primitive Storage</li>
-        <li IfModActive="Adaptive.Storage.Neolithic">Mod Patches/Adaptive Storage Neolithic</li>
-        <li IfModActive="ScpChemfuel.Appliances">Mod Patches/Appliances Expanded</li>
-        <li IfModActive="WarlocksForge.FishTraps">Mod Patches/Fish Traps</li>
-        <li IfModActive="Dubwise.DubsBadHygiene">Mod Patches/Dubs Bad Hygiene</li>
-        <li IfModActive="sbz.NeatStorageFridge">Mod Patches/Fridge</li>
-        <li IfModActive="sbz.GravshipStorage">Mod Patches/Gravship Storage</li>
-        <li IfModActive="Harkon.BiotechAddon.MedievalDeathrestCoffin">Mod Patches/Medieval Deathrest Coffin</li>
-        <li IfModActive="Animal.BedsNew">Mod Patches/More Animal Beds</li>
-        <li IfModActive="Nightmare.Museums">Mod Patches/Museums</li>
-        <li IfModActive="Ferny.ProgressionAgriculture">Mod Patches/Progression Agriculture</li>
-        <li IfModActive="sbz.NeatStorage">Mod Patches/Neat Storage</li>
-        <li IfModActive="Rebuild.Cotr.DoorsAndCorners">Mod Patches/Rebuild Doors and Corners</li>
-        <li IfModActive="PeteTimesSix.ResearchReinvented.SteppingStones">Mod Patches/Research Reinvented Stepping Stones</li>
-        <li IfModActive="Phaneron.Basic.Storage">Mod Patches/Phaneron's Basic Storage</li>
-        <li IfModActive="Syrchalis.Processor.Framework">Mod Patches/Processor Framework</li>
-        <li IfModActive="Aelanna.TransparentSubstructure">Mod Patches/Transparent Substructure</li>
-        <li IfModActive="OELS.VehicleMapFramework">Mod Patches/Vehicle Map Framework</li>
+        <!-- Other Mod Patches (alphabetical by folder name) -->
+        <li IfModActive="Nightmare.Aquariums">Mod Patches/Other/Aquariums</li>
+        <li IfModActive="WarlocksForge.FishTraps">Mod Patches/Other/Fish Traps</li>
+        <li IfModActive="Dubwise.DubsBadHygiene">Mod Patches/Other/Dubs Bad Hygiene</li>
+        <li IfModActive="Harkon.BiotechAddon.MedievalDeathrestCoffin">Mod Patches/Other/Medieval Deathrest Coffin</li>
+        <li IfModActive="Animal.BedsNew">Mod Patches/Other/More Animal Beds</li>
+        <li IfModActive="Nightmare.Museums">Mod Patches/Other/Museums</li>
+        <li IfModActive="Ferny.ProgressionAgriculture">Mod Patches/Other/Progression Agriculture</li>
+        <li IfModActive="Rebuild.Cotr.DoorsAndCorners">Mod Patches/Other/Rebuild Doors and Corners</li>
+        <li IfModActive="PeteTimesSix.ResearchReinvented.SteppingStones">Mod Patches/Other/Research Reinvented Stepping Stones</li>
+        <li IfModActive="Syrchalis.Processor.Framework">Mod Patches/Other/Processor Framework</li>
+        <li IfModActive="Aelanna.TransparentSubstructure">Mod Patches/Other/Transparent Substructure</li>
+        <li IfModActive="OELS.VehicleMapFramework">Mod Patches/Other/Vehicle Map Framework</li>
+
         <!-- Vanilla Expanded -->
+        <li IfModActive="ScpChemfuel.Appliances">Mod Patches/Vanilla Expanded/Appliances Expanded</li>
         <li IfModActive="VanillaExpanded.VBooksE">Mod Patches/Vanilla Expanded/VE Books</li>
         <li IfModActive="VanillaExpanded.VBrewE">Mod Patches/Vanilla Expanded/VE Brewing</li>
         <li IfModActive="VanillaExpanded.VChemfuelE">Mod Patches/Vanilla Expanded/VE Chemfuel</li>
