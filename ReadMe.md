@@ -287,8 +287,6 @@ Feedback is welcome! I want the groupings to be as intuitive as possible, so if 
 - Industrial Heater, Heater -> Heaters
 - Standing Cooler, Gas Cooler -> Standing Coolers
 
-## Planned Patches
-
 ### Vanilla Vehicles Expanded
 - Aeroplane (Smuggler), Fighter Plane (Warbird) -> Airplanes
 - Armored Car (Highwayman), APC (Tango) -> Armored Vehicles
@@ -305,4 +303,9 @@ Feedback is welcome! I want the groupings to be as intuitive as possible, so if 
 - Ladder, Ramp, Zipline Turret -> Map Vehicle Access
 - Pipe Connector, Wireless Chargers -> Map Vehicle Connectors
 - Driver Seat, Gunner Seat, Passenger Seat -> Map Vehicle Seats
-- Lift Fan, Turbocharger -> Map Vehicle Payload Upgrades
+- Lift Fan, Turbocharger -> Map Vehicle Payload Upgrades\
+
+## Planned Patches
+
+### Vanilla Vehicles Expanded: Tier 3
+- Details to come soon
