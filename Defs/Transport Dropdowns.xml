@@ -5,6 +5,23 @@
         <defName>KobeRiddle_PodLaunchers</defName>
     </DesignatorDropdownGroupDef>
 
+    <!-- Map Vehicle Framework -->
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_MapVehicleAccess</defName>
+    </DesignatorDropdownGroupDef>
+    
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_MapVehicleConnectors</defName>
+    </DesignatorDropdownGroupDef>
+    
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_MapVehiclePayloadUpgrades</defName>
+    </DesignatorDropdownGroupDef>
+    
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_MapVehicleSeats</defName>
+    </DesignatorDropdownGroupDef>
+
     <!-- Vehicles -->
     <DesignatorDropdownGroupDef>
         <defName>KobeRiddle_Airplanes</defName>
