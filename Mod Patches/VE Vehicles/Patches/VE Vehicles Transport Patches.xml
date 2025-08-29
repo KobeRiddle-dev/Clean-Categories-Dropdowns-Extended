@@ -48,6 +48,12 @@
             <designatorDropdown>KobeRiddle_Pods</designatorDropdown>
         </value>
     </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="TransportPod"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Pods</designatorDropdown>
+        </value>
+    </Operation>
 
     <!-- Trucks -->
     <Operation Class="PatchOperationAdd">
