@@ -1,3 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
+
+    <!-- Airplanes -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/Vehicles.VehicleBuildDef[defName="VFVE__Blueprint" or defName="VFVE_Trawler_Blueprint"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Airplanes</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Armored Vehicles -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/Vehicles.VehicleBuildDef[defName="VFVE_Highwayman_Blueprint" or defName="VFVE_Tango_Blueprint"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_ArmoredVehicles</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Boats -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/Vehicles.VehicleBuildDef[defName="VVE_Dinghy_Blueprint" or defName="VFVE_Trawler_Blueprint"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Boats</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Cars -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/Vehicles.VehicleBuildDef[defName="VFVE_Traveller_Blueprint" or defName="VFVE_Wagon_Blueprint"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Cars</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Off-Road Vehicles -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/Vehicles.VehicleBuildDef[defName="VVE_Dirtbike_Blueprint" or defName="VFVE_Prowler_Blueprint"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_OffRoadVehicles</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Trucks -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/Vehicles.VehicleBuildDef[defName="VFVE_Roadkill_Blueprint" or defName="VFVE_Mule_Blueprint" or defName="VFVE_Wisent_Blueprint"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Trucks</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Rocket Pods -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/Vehicles.VehicleBuildDef[defName="VVE_Frog_Blueprint" or defName="VFVE_Toad_Blueprint"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_RocketPods</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Tanks -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/Vehicles.VehicleBuildDef[defName="VVE_Roadkill_Blueprint" or defName="VFVE_Bulldog_Blueprint" or defName="VFVE_Bunsen_Blueprint"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Tanks</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Vans -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/Vehicles.VehicleBuildDef[defName="VVE_BangBus_Blueprint" or defName="VFVE_Snatcher_Blueprint"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Vans</designatorDropdown>
+        </value>
+    </Operation>
+
 </Patch>

@@ -290,15 +290,15 @@ Feedback is welcome! I want the groupings to be as intuitive as possible, so if 
 ## Planned Patches
 
 ### Vanilla Vehicles Expanded
-- Armored Car, APC -> Armored Vehicles
-- Small Boat, Large Boat -> Boats
-- Basic Car, Family Car -> Cars
-- Dirtbike, Off-Roader -> Off-Road Vehicles
-- Aeroplane, Fighter Plane -> Planes
-- Pickup Truck, Small Truck, Large Truck -> Trucks
-- Rocket Pod, Siege Pod -> Rocket Pods
-- Light Tank, Medium Tank, Flame Tank -> Tanks
-- Small Van, Large Van -> Vans
+- Aeroplane (Smuggler), Fighter Plane (Warbird) -> Airplanes
+- Armored Car (Highwayman), APC (Tango) -> Armored Vehicles
+- Small Boat (Dinghy), Large Boat (Trawler) -> Boats
+- Basic Car (Traveller), Family Car (Wagon) -> Cars
+- Dirtbike (Dirtbike), Off-Roader (Prowler) -> Off-Road Vehicles
+- Pickup Truck (Roadkill), Small Truck (Mule), Large Truck (Wisent) -> Trucks
+- Rocket Pod (Frog), Siege Pod (Toad) -> Rocket Pods
+- Light Tank (Roadkill), Medium Tank (Bulldog), Flame Tank (Bunsen) -> Tanks
+- Small Van (Bangbus), Large Van (Snatcher) -> Vans
 
 ### Vehicle Map Framework
 - Driver Seat, Gunner Seat, Passenger Seat -> Vehicle Seats
