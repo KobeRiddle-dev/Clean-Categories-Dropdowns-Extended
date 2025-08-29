@@ -17,7 +17,7 @@
         </value>
     </Operation>
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VMF_WirelessTransmitter" or defName="VMF_WirelessReceiver"]</xpath>
+        <xpath>Defs/ThingDef[defName="VMF_WirelessTransmitter" or defName="VMF_WirelessReceiver"]/designatorDropdown</xpath>
         <value>
             <designatorDropdown>KobeRiddle_MapVehicleConnectors</designatorDropdown>
         </value>
