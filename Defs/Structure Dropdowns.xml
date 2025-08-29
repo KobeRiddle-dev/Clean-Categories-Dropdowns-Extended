@@ -22,4 +22,8 @@
         <defName>KobeRiddle_CastleWalls</defName>
     </DesignatorDropdownGroupDef>
 
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_Skylights</defName>
+    </DesignatorDropdownGroupDef>
+
 </Defs>

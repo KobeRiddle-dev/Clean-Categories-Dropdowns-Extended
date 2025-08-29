@@ -6,7 +6,7 @@
         <li IfModActive="Ludeon.Rimworld.Ideology">Mod Patches/Ideology</li>
         <li IfModActive="Ludeon.Rimworld.Biotech">Mod Patches/Biotech</li>
         <li IfModActive="Ludeon.Rimworld.Odyssey">Mod Patches/Odyssey</li>
-
+        
         <!-- Mod Patches (alphabetical by folder name) -->
         <li IfModActive="Nightmare.Aquariums">Mod Patches/Aquariums</li>
         <li IfModActive="Adaptive.PrimitiveStorage">Mod Patches/Adaptive Primitive Storage</li>
@@ -44,12 +44,13 @@
         <li IfModActive="VanillaExpanded.VFEPower">Mod Patches/VFE Power</li>
         <li IfModActive="VanillaExpanded.VFEProduction">Mod Patches/VFE Production</li>
         <li IfModActive="VanillaExpanded.VFESpacer">Mod Patches/VFE Spacer</li>
-
+        
         <!-- Combo mod patches (alphabetical by folder name) -->
         <li IfModActiveAll="Adaptive.Storage.Neolithic,Phaneron.Basic.Storage">Mod Combo Patches/Adaptive Storage Neolithic Storage + Phaneron's Basic Storage</li>
         <li IfModActiveAll="sbz.NeatStorage,Phaneron.Basic.Storage">Mod Combo Patches/Neat Storage + Phaneron's Basic Storage</li>
         <li IfModActiveAll="Rebuild.Cotr.DoorsAndCorners,VanillaExpanded.VFEArchitect">Mod Combo Patches/Rebuild Doors and Corners + VFE Architect</li>
         <li IfModActiveAll="OskarPotocki.VFE.Medieval2,VanillaExpanded.VFEProduction">Mod Combo Patches/VFE Medieval 2 + VFE Production</li>
+        <li IfModActiveAll="Dubwise.DubsSkylights,KobeRiddle.NoSkylightsCategory">Mod ComboPatches/Dubs Skylights</li>
 
 
     </v1.6>
