@@ -3,9 +3,9 @@
         <!-- Ludeon Studios Content -->
         <li>/</li>
         <li>Mod Patches/Core</li>
-        <li IfModActive="Ludeon.Rimworld.Ideology">Mod Patches/Ideology</li>
-        <li IfModActive="Ludeon.Rimworld.Biotech">Mod Patches/Biotech</li>
-        <li IfModActive="Ludeon.Rimworld.Odyssey">Mod Patches/Odyssey</li>
+        <li IfModActive="Ludeon.Rimworld.Ideology">Mod Patches/Ludeon/Ideology</li>
+        <li IfModActive="Ludeon.Rimworld.Biotech">Mod Patches/Ludeon/Biotech</li>
+        <li IfModActive="Ludeon.Rimworld.Odyssey">Mod Patches/Ludeon/Odyssey</li>
         
         <!-- Mod Patches (alphabetical by folder name) -->
         <li IfModActive="Nightmare.Aquariums">Mod Patches/Aquariums</li>
