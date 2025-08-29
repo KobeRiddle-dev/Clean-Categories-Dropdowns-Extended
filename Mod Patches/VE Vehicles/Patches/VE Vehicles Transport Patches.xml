@@ -33,11 +33,19 @@
         </value>
     </Operation>
 
-    <!-- Off-Road Vehicles -->
+    <!-- Motorbikes -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/Vehicles.VehicleBuildDef[defName="VVE_Dirtbike_Blueprint" or defName="VVE_Prowler_Blueprint"]</xpath>
+        <xpath>Defs/Vehicles.VehicleBuildDef[defName="VVE_Dirtbike_Blueprint" or defName="Charley"]</xpath>
         <value>
-            <designatorDropdown>KobeRiddle_OffRoadVehicles</designatorDropdown>
+            <designatorDropdown>KobeRiddle_Motorbikes</designatorDropdown>
+        </value>
+    </Operation>
+
+    <!-- Pods -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/Vehicles.VehicleBuildDef[defName="TransportPod" or defName="VVE_Frog_Blueprint" or defName="VVE_Toad_Blueprint"]</xpath>
+        <value>
+            <designatorDropdown>KobeRiddle_Pods</designatorDropdown>
         </value>
     </Operation>
 
@@ -46,14 +54,6 @@
         <xpath>Defs/Vehicles.VehicleBuildDef[defName="VVE_Roadrunner_Blueprint" or defName="VVE_Mule_Blueprint" or defName="VVE_Wisent_Blueprint"]</xpath>
         <value>
             <designatorDropdown>KobeRiddle_Trucks</designatorDropdown>
-        </value>
-    </Operation>
-
-    <!-- Rocket Pods -->
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/Vehicles.VehicleBuildDef[defName="VVE_Frog_Blueprint" or defName="VVE_Toad_Blueprint"]</xpath>
-        <value>
-            <designatorDropdown>KobeRiddle_RocketPods</designatorDropdown>
         </value>
     </Operation>
 

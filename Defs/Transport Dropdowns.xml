@@ -23,15 +23,19 @@
     </DesignatorDropdownGroupDef>
 
     <DesignatorDropdownGroupDef>
-        <defName>KobeRiddle_OffRoadVehicles</defName>
+        <defName>KobeRiddle_Explorers</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_Motorbikes</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_Pods</defName>
     </DesignatorDropdownGroupDef>
 
     <DesignatorDropdownGroupDef>
         <defName>KobeRiddle_Trucks</defName>
-    </DesignatorDropdownGroupDef>
-
-    <DesignatorDropdownGroupDef>
-        <defName>KobeRiddle_RocketPods</defName>
     </DesignatorDropdownGroupDef>
 
     <DesignatorDropdownGroupDef>

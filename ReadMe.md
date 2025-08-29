@@ -294,9 +294,10 @@ Feedback is welcome! I want the groupings to be as intuitive as possible, so if 
 - Armored Car (Highwayman), APC (Tango) -> Armored Vehicles
 - Small Boat (Dinghy), Large Boat (Trawler) -> Boats
 - Basic Car (Traveller), Family Car (Wagon) -> Cars
-- Dirtbike (Dirtbike), Off-Roader (Prowler) -> Off-Road Vehicles
+- Off-Roader (Prowler) -> Explorers
+- Dirtbike (Dirtbike), Motorcycle (Charley) -> Motorbikes
+- Transport Pod, Rocket Pod (Frog), Siege Pod (Toad) -> Pods
 - Pickup Truck (Roadrunner), Small Truck (Mule), Large Truck (Wisent) -> Trucks
-- Rocket Pod (Frog), Siege Pod (Toad) -> Rocket Pods
 - Light Tank (Roadkill), Medium Tank (Bulldog), Flame Tank (Bunsen) -> Tanks
 - Small Van (Bangbus), Large Van (Snatcher) -> Vans
 
