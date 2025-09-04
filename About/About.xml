@@ -20,6 +20,8 @@
 	</modDependencies>
 	<description>Condenses stuff into dropdowns (more).</description>
 	<loadAfter>
+
+		<!-- Ludeon -->
 		<li>Ludeon.Rimworld</li>
 		<li>Ludeon.Rimworld.Royalty</li>
 		<li>Ludeon.Rimworld.Ideology</li>
@@ -27,14 +29,20 @@
 		<li>Ludeon.Rimworld.Anomaly</li>
 		<li>Ludeon.Rimworld.Odyssey</li>
 
+		<!-- Ferny -->
 		<li>Ferny.CategoriesDropdowns</li>
 		<li>Ferny.NetworkCategory</li>
-		<li>SmashPhil.VehicleFramework</li>
 
-		<li>Nightmare.Aquariums</li>
+		<!-- Adaptive Storage Mods -->
 		<li>Adaptive.PrimitiveStorage</li>
 		<li>Adaptive.Storage.Neolithic</li>
-		<li>ScpChemfuel.Appliances</li>
+		<li>sbz.NeatStorageFridge</li>
+		<li>sbz.GravshipStorage"</li>
+		<li>sbz.NeatStorage"</li>
+		<li>Phaneron.Basic.Storage</li>
+		
+		<!-- Other -->
+		<li>Nightmare.Aquariums</li>
 		<li>Dubwise.DubsBadHygiene</li>
 		<li>Dubwise.DubsSkylights</li>
 		<li>KobeRiddle.NoSkylightsCategory</li>
@@ -42,15 +50,16 @@
 		<li>Harkon.BiotechAddon.MedievalDeathrestCoffin</li>
 		<li>Animal.BedsNew</li>
 		<li>Nightmare.Museums</li>
-		<li>sbz.NeatStorageFridge</li>
-		<li>sbz.GravshipStorage"</li>
-		<li>sbz.NeatStorage"</li>
 		<li>Ferny.ProgressionAgriculture</li>
 		<li>Rebuild.Cotr.DoorsAndCorners</li>
-		<li>Phaneron.Basic.Storage</li>
 		<li>PeteTimesSix.ResearchReinvented.SteppingStones</li>
 		<li>Syrchalis.Processor.Framework</li>
 		<li>Aelanna.TransparentSubstructure</li>
+		<li>SmashPhil.VehicleFramework</li>
+		
+		<!-- Vanilla Expanded -->
+		<li>ScpChemfuel.Appliances</li>
+		<li>CiXwOw.HelixienBoiler</li>
 		<li>VanillaExpanded.VBooksE</li>
 		<li>VanillaExpanded.VBrewE</li>
 		<li>VanillaExpanded.VChemfuelE</li>
@@ -69,5 +78,6 @@
 		<li>VanillaExpanded.VFEPower</li>
 		<li>VanillaExpanded.VFEProduction</li>
 		<li>VanillaExpanded.VFESpacer</li>
+		
 	</loadAfter>
 </ModMetaData>
