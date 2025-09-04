@@ -9,4 +9,10 @@
         <defName>KobeRiddle_ChemfuelBraziers</defName>
     </DesignatorDropdownGroupDef>
 
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_HelixienGasBraziers</defName>
+    </DesignatorDropdownGroupDef>
+
+
+
 </Defs>

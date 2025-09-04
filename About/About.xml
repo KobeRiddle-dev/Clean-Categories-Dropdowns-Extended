@@ -60,6 +60,7 @@
 		<!-- Vanilla Expanded -->
 		<li>ScpChemfuel.Appliances</li>
 		<li>CiXwOw.HelixienBoiler</li>
+		<li>CiXwOw.HelixienBrazier</li>
 		<li>VanillaExpanded.VBooksE</li>
 		<li>VanillaExpanded.VBrewE</li>
 		<li>VanillaExpanded.VChemfuelE</li>
@@ -78,6 +79,6 @@
 		<li>VanillaExpanded.VFEPower</li>
 		<li>VanillaExpanded.VFEProduction</li>
 		<li>VanillaExpanded.VFESpacer</li>
-		
+
 	</loadAfter>
 </ModMetaData>
