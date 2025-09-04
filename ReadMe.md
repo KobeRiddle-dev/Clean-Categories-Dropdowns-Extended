@@ -58,6 +58,12 @@ Feedback is welcome! I want the groupings to be as intuitive as possible, so if 
 - Aquarium Filter, Aquarium Auto Cleaner -> Aquarium Cleaners
 - Aquarium Compact Nutrition Control, Aquarium Nutrition Control -> Aquarium Nutrition Controls
 
+### Architecture of the Rim
+- Simple Eave, Simple Eave Half, Simple Eave Corner, Simple Eave Inner Corner -> Simple Eaves
+- Stony Eave, Stony Eave Half, Stony Eave Corner, Stony Eave Inner Corner, Stony Eave Inner Corner Small, Stony Eave Outer Corner Small -> Stony Eaves
+- Woody Eave, Woody Eave Half, Woody Eave Corner, Woody Eave Inner Corner, Woody Eave Inner Corner Small, Woody Eave Outer Corner Small -> Woody Eaves
+- Also fixes red errors at startup!
+
 ### Adaptive Storage Neolithic
 
 - Wooden Basket, Cloth Basket -> Baskets

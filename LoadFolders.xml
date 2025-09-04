@@ -17,6 +17,7 @@
         
         <!-- Other Mod Patches (alphabetical by folder name) -->
         <li IfModActive="Nightmare.Aquariums">Mod Patches/Other/Aquariums</li>
+        <li IfModActive="Eeg.Architecture">Mod Patches/Other/Architecture of the Rim</li>
         <li IfModActive="WarlocksForge.FishTraps">Mod Patches/Other/Fish Traps</li>
         <li IfModActive="Dubwise.DubsBadHygiene">Mod Patches/Other/Dubs Bad Hygiene</li>
         <li IfModActive="Harkon.BiotechAddon.MedievalDeathrestCoffin">Mod Patches/Other/Medieval Deathrest Coffin</li>

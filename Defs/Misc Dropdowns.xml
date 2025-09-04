@@ -5,6 +5,26 @@
         <defName>KobeRiddle_Bins</defName>
     </DesignatorDropdownGroupDef>
 
+    <!-- Eaves and Rafters -->
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_Rafters</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_SimpleEaves</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_StonyEaves</defName>
+    </DesignatorDropdownGroupDef>
+
+    <DesignatorDropdownGroupDef>
+        <defName>KobeRiddle_WoodyEaves</defName>
+    </DesignatorDropdownGroupDef>
+
+    <!-- Linkables -->
+
     <DesignatorDropdownGroupDef>
         <defName>KobeRiddle_LinkablesArt</defName>
     </DesignatorDropdownGroupDef>
