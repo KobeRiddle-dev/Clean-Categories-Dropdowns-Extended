@@ -33,6 +33,7 @@
         <li IfModActive="ScpChemfuel.Appliances">Mod Patches/Vanilla Expanded/Appliances Expanded</li>
         <li IfModActive="CiXwOw.HelixienBoiler">Mod Patches/Vanilla Expanded/Helixien Gas Boiler</li>
         <li IfModActive="CiXwOw.HelixienBrazier">Mod Patches/Vanilla Expanded/Helixien Gas Brazier</li>
+        <li IfModActive="CiXwOw.HelixienGasProduction">Mod Patches/Vanilla Expanded/Helixien Gas Production</li>
         <li IfModActive="VanillaExpanded.VBooksE">Mod Patches/Vanilla Expanded/VE Books</li>
         <li IfModActive="VanillaExpanded.VBrewE">Mod Patches/Vanilla Expanded/VE Brewing</li>
         <li IfModActive="VanillaExpanded.VChemfuelE">Mod Patches/Vanilla Expanded/VE Chemfuel</li>
