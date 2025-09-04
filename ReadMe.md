@@ -111,6 +111,19 @@ Feedback is welcome! I want the groupings to be as intuitive as possible, so if 
 - Gravship Crate, Large Gravship Crate, Long Gravship Crate -> Gravship Crates
 - Gravship Weapon Rack -> Weapon Racks
 
+### Helixien Gas Boiler
+
+- Helixien Gas Boiler -> Water Heaters
+
+### Helixien Gas Brazier
+
+- Helixien Gas Brazier, Helixien Gas Darklight Brazier -> Helixien Gas Braziers
+
+### Helixien Gas Production
+
+- Helixien Gas Large Stove -> Stoves
+- Helixien Gas Large Smithy -> Smithies
+
 ### Medieval Deathrest Coffin
 
 - Deathrest Coffin, Deathrest Royal Coffin, Deathrest Casket -> Deathrest Caskets
