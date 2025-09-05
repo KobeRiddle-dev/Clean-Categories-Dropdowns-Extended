@@ -11,7 +11,7 @@
 
     <!-- Move Smithy to Production -->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VFE_TableSmithyLargeGas"</xpath>
+        <xpath>Defs/ThingDef[defName="VFE_TableSmithyLargeGas"]/designationCategory</xpath>
         <value>
             <designationCategory>Production</designationCategory>
         </value>
