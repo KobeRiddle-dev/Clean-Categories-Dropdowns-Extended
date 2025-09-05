@@ -2,7 +2,7 @@
     <v1.6>
         <!-- Ludeon Studios Content -->
         <li>/</li>
-        <li>Mod Patches/Core</li>
+        <li>Mod Patches/Ludeon/Core</li>
         <li IfModActive="Ludeon.Rimworld.Ideology">Mod Patches/Ludeon/Ideology</li>
         <li IfModActive="Ludeon.Rimworld.Biotech">Mod Patches/Ludeon/Biotech</li>
         <li IfModActive="Ludeon.Rimworld.Odyssey">Mod Patches/Ludeon/Odyssey</li>
