@@ -8,5 +8,13 @@
             <designatorDropdown>KobeRiddle_Smithies</designatorDropdown>
         </value>
     </Operation>
+
+    <!-- Move Smithy to Production -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VFE_TableSmithyLargeGas"</xpath>
+        <value>
+            <designationCategory>Production</designationCategory>
+        </value>
+    </Operation>
     
 </Patch>

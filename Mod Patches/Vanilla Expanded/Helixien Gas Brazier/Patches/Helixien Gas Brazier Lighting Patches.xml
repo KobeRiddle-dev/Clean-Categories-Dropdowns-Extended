@@ -8,4 +8,26 @@
         </value>
     </Operation>
 
+    <!-- Move Braziers to Lighting -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Lighting Category</li>
+        </mods>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="HelixienGasBrazier" or defName="HelixienGasDarklightBrazier"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Ferny_Lighting</designationCategory>
+            </value>
+        </match>
+
+        <nomatch Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="HelixienGasBrazier" or defName="HelixienGasDarklightBrazier"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Furniture</designationCategory>
+            </value>
+        </nomatch>
+
+    </Operation>
+
 </Patch>

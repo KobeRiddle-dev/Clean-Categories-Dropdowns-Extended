@@ -9,4 +9,26 @@
         </value>
     </Operation>
 
+    <!-- Move Stove to Kitchen -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Progression: Kitchen</li>
+        </mods>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFE_TableStoveLargeGas"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Ferny_Kitchen</designationCategory>
+            </value>
+        </match>
+
+        <nomatch Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFE_TableStoveLargeGas"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Production</designationCategory>
+            </value>
+        </nomatch>
+
+    </Operation>
+
 </Patch>
