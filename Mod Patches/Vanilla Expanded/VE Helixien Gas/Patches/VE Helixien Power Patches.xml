@@ -5,7 +5,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="VHGE_HelixienGenerator" or defName="VHGE_IndustrialHelixienGenerator"]</xpath>
         <value>
-            <designatorDropdown>Ferny_GasGenerators</designatorDropdown>
+            <designatorDropdown>KobeRiddle_GeneratorsGas</designatorDropdown>
         </value>
     </Operation>
 

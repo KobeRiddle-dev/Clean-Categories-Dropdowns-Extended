@@ -5,7 +5,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="CA_GasTurbine"]</xpath>
         <value>
-            <designatorDropdown>Ferny_GasGenerators</designatorDropdown>
+            <designatorDropdown>KobeRiddle_GeneratorsGas</designatorDropdown>
         </value>
     </Operation>
 
@@ -13,7 +13,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="CA_WoodFiredTurbine"]</xpath>
         <value>
-            <designatorDropdown>Ferny_WoodGenerators</designatorDropdown>
+            <designatorDropdown>KobeRiddle_GeneratorsWood</designatorDropdown>
         </value>
     </Operation>
 
@@ -21,7 +21,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="CA_ChemfuelTurbine"]</xpath>
         <value>
-            <designatorDropdown>Ferny_ChemfuelGenerators</designatorDropdown>
+            <designatorDropdown>KobeRiddle_GeneratorsChemfuel</designatorDropdown>
         </value>
     </Operation>
 
