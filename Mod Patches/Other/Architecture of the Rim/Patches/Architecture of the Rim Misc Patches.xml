@@ -2,10 +2,10 @@
 <Patch>
 
     <!-- Move to Misc -->
-    <Operation Class="PatchOperationRemove">
+    <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[@Name="BaseRafterBuilding"]/designationCategory</xpath>
         <value>
-            <designationCategory>Eaves</designationCategory>
+            <designationCategory>Misc</designationCategory>
         </value>
     </Operation>
 
