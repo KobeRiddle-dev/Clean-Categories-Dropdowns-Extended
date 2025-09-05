@@ -9,7 +9,7 @@
     </Operation>
 
     <!-- Move Boiler to Hygiene -->
-    <Operation Class="PatchOperationReplace">
+    <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="HelixienGasBoiler"]/designationCategory</xpath>
         <value>
             <designationCategory>Hygiene</designationCategory>

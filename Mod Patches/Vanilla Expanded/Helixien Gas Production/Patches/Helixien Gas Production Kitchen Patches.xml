@@ -15,14 +15,14 @@
             <li>Progression: Kitchen</li>
         </mods>
 
-        <match Class="PatchOperationReplace">
+        <match Class="PatchOperationAdd">
             <xpath>Defs/ThingDef[defName="VFE_TableStoveLargeGas"]/designationCategory</xpath>
             <value>
                 <designationCategory>Ferny_Kitchen</designationCategory>
             </value>
         </match>
 
-        <nomatch Class="PatchOperationReplace">
+        <nomatch Class="PatchOperationAdd">
             <xpath>Defs/ThingDef[defName="VFE_TableStoveLargeGas"]/designationCategory</xpath>
             <value>
                 <designationCategory>Production</designationCategory>
