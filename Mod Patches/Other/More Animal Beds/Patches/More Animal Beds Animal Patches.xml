@@ -3,9 +3,9 @@
 
     <!-- Animal Beds -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="AnimalSleepingSpot" or @ParentName="AnimalBedFurnitureBase"]</xpath>
+        <xpath>Defs/ThingDef[defName="AnimalBed" or defName="GSAnimalBedBig"]</xpath>
         <value>
-            <designatorDropdown>AnimalBeds</designatorDropdown>
+            <designatorDropdown>KobeRiddle_AnimalBeds</designatorDropdown>
         </value>
     </Operation>
 
