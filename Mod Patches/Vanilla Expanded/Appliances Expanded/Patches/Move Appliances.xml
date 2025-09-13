@@ -2,10 +2,8 @@
 <Patch>
 
     <!-- Kitchen things -->
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Progression: Kitchen</li>
-        </mods>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_Kitchen"]</xpath>
 
         <match Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="CE_ChemfuelPot" or defName="CA_ChemfuelStoveLarge" or defName="CE_ChemfuelStove"
@@ -65,10 +63,8 @@
     </Operation>
 
     <!-- Lights -->
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Lighting Category</li>
-        </mods>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_Lighting"]</xpath>
 
         <match Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="CA_Sunlamp" or defName="CA_SunlampDark" or defName="CA_ChemfuelStandingLamp"

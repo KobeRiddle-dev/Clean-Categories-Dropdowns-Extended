@@ -9,10 +9,8 @@
     </Operation>
 
     <!-- Move Braziers to Lighting -->
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Lighting Category</li>
-        </mods>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_Lighting"]</xpath>
 
         <match Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="HelixienGasBrazier" or defName="HelixienGasDarklightBrazier"]/designationCategory</xpath>

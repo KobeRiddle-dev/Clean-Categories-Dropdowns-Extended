@@ -2,10 +2,8 @@
 <Patch>
 
     <!-- Kitchen things -->
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Progression: Kitchen</li>
-        </mods>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_Kitchen"]</xpath>
 
         <match Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="VHGE_GasPoweredStove"]/designationCategory</xpath>
@@ -41,10 +39,8 @@
     </Operation>
 
     <!-- Lights -->
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Lighting Category</li>
-        </mods>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_Lighting"]</xpath>
 
         <match Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="VHGE_GasSunLamp" or defName="VHGE_GasLamp"
@@ -65,10 +61,15 @@
     </Operation>
 
     <!-- Transport -->
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Vehicle Framework</li>
-        </mods>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="VF_Vehicles"]</xpath>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VHGE_GasOperatedPodLauncher"]/designationCategory</xpath>
+            <value>
+                <designationCategory>VF_Vehicles</designationCategory>
+            </value>
+        </match>
 
         <match Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="VHGE_GasOperatedPodLauncher"]/designationCategory</xpath>

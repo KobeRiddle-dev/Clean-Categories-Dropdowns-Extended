@@ -2,10 +2,8 @@
 <Patch>
 
     <!-- Kitchen things -->
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Progression: Kitchen</li>
-        </mods>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_Kitchen"]</xpath>
 
         <match Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="VNPE_NutrientPastePipe"
@@ -24,10 +22,8 @@
     </Operation>
 
     <!-- Deconstruction Designator -->
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Progression: Kitchen</li>
-        </mods>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_Kitchen"]</xpath>
 
         <match Class="PatchOperationReplace">
             <xpath>Defs/PipeSystem.PipeNetDef[defName="VNPE_NutrientPasteNet"]/designator/designationCategoryDef</xpath>

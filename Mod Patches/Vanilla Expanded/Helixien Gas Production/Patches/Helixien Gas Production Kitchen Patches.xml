@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-    
+
     <!-- Stoves -->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="VFE_TableStoveLargeGas"]</xpath>
@@ -10,10 +10,8 @@
     </Operation>
 
     <!-- Move Stove to Kitchen -->
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Progression: Kitchen</li>
-        </mods>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_Kitchen"]</xpath>
 
         <match Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="VFE_TableStoveLargeGas"]/designationCategory</xpath>
