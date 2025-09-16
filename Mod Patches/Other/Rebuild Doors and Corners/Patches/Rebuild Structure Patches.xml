@@ -13,7 +13,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="RB_ClerestoryWall" or defName="RB_ReinforcedClerestoryWall"]</xpath>
         <value>
-            <designatorDropdown>Ferny_GlassWalls</designatorDropdown>
+            <designatorDropdown>KobeRiddle_ClerestoryWalls</designatorDropdown>
         </value>
     </Operation>
 
