@@ -98,7 +98,7 @@
                 <designationCategory>Temperature</designationCategory>
             </value>
         </nomatch>
-        
+
     </Operation>
 
     <!-- Lights -->
@@ -125,27 +125,32 @@
 
     <!-- Transport -->
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/DesignationCategoryDef[defName="VF_Vehicles"]</xpath>
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_AerialTransport"]</xpath>
 
         <match Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="VHGE_GasOperatedPodLauncher"]/designationCategory</xpath>
             <value>
-                <designationCategory>VF_Vehicles</designationCategory>
+                <designationCategory>Ferny_AerialTransport</designationCategory>
             </value>
         </match>
 
-        <match Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName="VHGE_GasOperatedPodLauncher"]/designationCategory</xpath>
-            <value>
-                <designationCategory>VF_Vehicles</designationCategory>
-            </value>
-        </match>
+        <nomatch Class="PatchOperationConditional">
+            <xpath>Defs/DesignationCategoryDef[defName="VF_Vehicles"]</xpath>
 
-        <nomatch Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName="VHGE_GasOperatedPodLauncher"]/designationCategory</xpath>
-            <value>
-                <designationCategory>Misc</designationCategory>
-            </value>
+            <match Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VHGE_GasOperatedPodLauncher"]/designationCategory</xpath>
+                <value>
+                    <designationCategory>VF_Vehicles</designationCategory>
+                </value>
+            </match>
+
+            <nomatch Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VHGE_GasOperatedPodLauncher"]/designationCategory</xpath>
+                <value>
+                    <designationCategory>Misc</designationCategory>
+                </value>
+            </nomatch>
+
         </nomatch>
 
     </Operation>
