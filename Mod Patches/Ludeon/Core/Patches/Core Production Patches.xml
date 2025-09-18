@@ -2,11 +2,16 @@
 <Patch>
 
     <!-- Research Benches -->
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="SimpleResearchBench" or defName="HiTechResearchBench"]</xpath>
-        <value>
-            <designatorDropdown>KobeRiddle_ResearchBenches</designatorDropdown>
-        </value>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_ResearchProduction"]</xpath>
+
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="SimpleResearchBench" or defName="HiTechResearchBench"]</xpath>
+            <value>
+                <designatorDropdown>KobeRiddle_ResearchBenches</designatorDropdown>
+            </value>
+        </nomatch>
+
     </Operation>
 
     <!-- Smithies-->
