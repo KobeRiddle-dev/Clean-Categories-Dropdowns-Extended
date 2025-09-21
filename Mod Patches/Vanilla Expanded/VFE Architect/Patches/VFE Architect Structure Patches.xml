@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-    <!-- Doors -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VFEArch_SingleDoor" or defName="VFEArch_SingleDoor_Flipped"]/designatorDropdown</xpath>
-        <value>
-            <designatorDropdown>Ferny_Doors</designatorDropdown>
-        </value>
+    <!-- Doors (unless Better Architect Menu's door category is present -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_Doors"]</xpath>
+
+        <nomatch Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFEArch_SingleDoor" or defName="VFEArch_SingleDoor_Flipped"]/designatorDropdown</xpath>
+            <value>
+                <designatorDropdown>Ferny_Doors</designatorDropdown>
+            </value>
+        </nomatch>
+
     </Operation>
 
     <!-- Fences -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="Fence" or defName="VFEArch_BrickFence" or defName="VFEArch_ChainlinkFence" 
+        <xpath>Defs/ThingDef[defName="Fence" or defName="VFEArch_BrickFence" or defName="VFEArch_ChainlinkFence"
             or defName="VFEArch_InvisibleFence" or defName="VFEArch_LowFence" or defName="VFEArch_PicketFence"]</xpath>
         <value>
             <designatorDropdown>KobeRiddle_Fences</designatorDropdown>

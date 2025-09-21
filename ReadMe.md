@@ -99,7 +99,7 @@ Feedback is welcome! I want the groupings to be as intuitive as possible, so if 
 
 ### Dubs Skylights
 
-- Skylight, Skylight 2x2, Skylight 3x3, Skylight 1x4 -> Skylights (Only applies if my other mod "No Skylights Category" is active)
+- Skylight, Skylight 2x2, Skylight 3x3, Skylight 1x4 -> Skylights
 
 ### Fish Traps
 

@@ -85,7 +85,7 @@
 
     <!-- Water Wells -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[@ParentName="BasedWaterWell"]</xpath>
+        <xpath>Defs/ThingDef[@ParentName="BasedWaterWell" or defName="PrimitiveWell"]</xpath>
         <value>
             <designatorDropdown>KobeRiddle_WaterWells</designatorDropdown>
         </value>

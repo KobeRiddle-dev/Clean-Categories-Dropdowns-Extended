@@ -20,6 +20,7 @@
         <li IfModActive="Eeg.Architecture">Mod Patches/Other/Architecture of the Rim</li>
         <li IfModActive="WarlocksForge.FishTraps">Mod Patches/Other/Fish Traps</li>
         <li IfModActive="Dubwise.DubsBadHygiene">Mod Patches/Other/Dubs Bad Hygiene</li>
+        <li IfModActive="Dubwise.DubsSkylights">Mod Patches/Other/Dubs Skylights</li>
         <li IfModActive="Harkon.BiotechAddon.MedievalDeathrestCoffin">Mod Patches/Other/Medieval Deathrest Coffin</li>
         <li IfModActive="Animal.BedsNew">Mod Patches/Other/More Animal Beds</li>
         <li IfModActive="Nightmare.Museums">Mod Patches/Other/Museums</li>
@@ -58,8 +59,6 @@
         <li IfModActiveAll="sbz.NeatStorage,Phaneron.Basic.Storage">Mod Combo Patches/Neat Storage + Phaneron's Basic Storage</li>
         <li IfModActiveAll="Rebuild.Cotr.DoorsAndCorners,VanillaExpanded.VFEArchitect">Mod Combo Patches/Rebuild Doors and Corners + VFE Architect</li>
         <li IfModActiveAll="OskarPotocki.VFE.Medieval2,VanillaExpanded.VFEProduction">Mod Combo Patches/VFE Medieval 2 + VFE Production</li>
-        <li IfModActiveAll="Dubwise.DubsSkylights,KobeRiddle.NoSkylightsCategory">Mod Combo Patches/Dubs Skylights</li>
-
 
     </v1.6>
 </loadFolders>

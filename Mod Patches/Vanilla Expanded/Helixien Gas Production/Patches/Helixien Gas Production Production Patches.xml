@@ -10,11 +10,23 @@
     </Operation>
 
     <!-- Move Smithy to Production -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VFE_TableSmithyLargeGas"]/designationCategory</xpath>
-        <value>
-            <designationCategory>Production</designationCategory>
-        </value>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_Production"]</xpath>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFE_TableSmithyLargeGas"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Ferny_Production</designationCategory>
+            </value>
+        </match>
+
+        <nomatch Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFE_TableSmithyLargeGas"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Production</designationCategory>
+            </value>
+        </nomatch>
+
     </Operation>
     
 </Patch>

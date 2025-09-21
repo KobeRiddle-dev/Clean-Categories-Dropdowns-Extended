@@ -2,10 +2,8 @@
 <Patch>
 
     <!-- Kitchen things -->
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Progression: Kitchen</li>
-        </mods>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_Kitchen"]</xpath>
 
         <match Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="VHGE_GasPoweredStove"]/designationCategory</xpath>
@@ -23,28 +21,89 @@
 
     </Operation>
 
-    <!-- Production Things -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VHGE_GasPoweredRefinery" or defName="VHGE_GasPoweredCrematorium" or defName="VHGE_GasPoweredSmithy"
-            or defName="VHGE_GasPoweredSmelter"]/designationCategory</xpath>
-        <value>
-            <designationCategory>Production</designationCategory>
-        </value>
+    <!-- Crafting Things -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_Production"]</xpath>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VHGE_GasPoweredSmithy"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Ferny_Production</designationCategory>
+            </value>
+        </match>
+
+        <nomatch Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VHGE_GasPoweredSmithy"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Production</designationCategory>
+            </value>
+        </nomatch>
+
     </Operation>
 
-    <!-- Temperature -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VHGE_GasCooler" or defName="VHGE_GasHeater"]/designationCategory</xpath>
-        <value>
-            <designationCategory>Temperature</designationCategory>
-        </value>
+    <!-- Processing Things -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_ProcessingProduction"]</xpath>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VHGE_GasPoweredRefinery" or defName="VHGE_GasPoweredCrematorium" or defName="VHGE_GasPoweredSmelter"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Ferny_ProcessingProduction</designationCategory>
+            </value>
+        </match>
+
+        <nomatch Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VHGE_GasPoweredRefinery" or defName="VHGE_GasPoweredCrematorium" or defName="VHGE_GasPoweredSmelter"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Production</designationCategory>
+            </value>
+        </nomatch>
+
+    </Operation>
+
+    <!-- Temperature: Heating -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_Heating"]</xpath>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VHGE_GasHeater"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Ferny_Heating</designationCategory>
+            </value>
+        </match>
+
+        <nomatch Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VHGE_GasHeater"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Temperature</designationCategory>
+            </value>
+        </nomatch>
+
+    </Operation>
+
+    <!-- Temperature: Cooling -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_Cooling"]</xpath>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VHGE_GasCooler"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Ferny_Cooling</designationCategory>
+            </value>
+        </match>
+
+        <nomatch Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VHGE_GasCooler"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Temperature</designationCategory>
+            </value>
+        </nomatch>
+
     </Operation>
 
     <!-- Lights -->
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Lighting Category</li>
-        </mods>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_Lighting"]</xpath>
 
         <match Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="VHGE_GasSunLamp" or defName="VHGE_GasLamp"
@@ -65,23 +124,33 @@
     </Operation>
 
     <!-- Transport -->
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Vehicle Framework</li>
-        </mods>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_AerialTransport"]</xpath>
 
         <match Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="VHGE_GasOperatedPodLauncher"]/designationCategory</xpath>
             <value>
-                <designationCategory>VF_Vehicles</designationCategory>
+                <designationCategory>Ferny_AerialTransport</designationCategory>
             </value>
         </match>
 
-        <nomatch Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName="VHGE_GasOperatedPodLauncher"]/designationCategory</xpath>
-            <value>
-                <designationCategory>Misc</designationCategory>
-            </value>
+        <nomatch Class="PatchOperationConditional">
+            <xpath>Defs/DesignationCategoryDef[defName="VF_Vehicles"]</xpath>
+
+            <match Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VHGE_GasOperatedPodLauncher"]/designationCategory</xpath>
+                <value>
+                    <designationCategory>VF_Vehicles</designationCategory>
+                </value>
+            </match>
+
+            <nomatch Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VHGE_GasOperatedPodLauncher"]/designationCategory</xpath>
+                <value>
+                    <designationCategory>Misc</designationCategory>
+                </value>
+            </nomatch>
+
         </nomatch>
 
     </Operation>

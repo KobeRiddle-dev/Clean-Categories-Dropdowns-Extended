@@ -2,10 +2,8 @@
 <Patch>
 
     <!-- Kitchen things -->
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Progression: Kitchen</li>
-        </mods>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_Kitchen"]</xpath>
 
         <match Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="CE_ChemfuelPot" or defName="CA_ChemfuelStoveLarge" or defName="CE_ChemfuelStove"
@@ -25,21 +23,84 @@
 
     </Operation>
 
-    <!-- Production Things -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="CE_FueledSmithyLarge" or defName="CA_ChemfuelCrematorium" or defName="CA_ChemfuelSmithy"
-            or defName="CA_ChemfuelSmelter"]/designationCategory</xpath>
-        <value>
-            <designationCategory>Production</designationCategory>
-        </value>
+    <!-- Crafting Things -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_Production"]</xpath>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="CE_FueledSmithyLarge" or defName="CA_ChemfuelSmithy"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Ferny_Production</designationCategory>
+            </value>
+        </match>
+
+        <nomatch Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="CE_FueledSmithyLarge" or defName="CA_ChemfuelSmithy"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Production</designationCategory>
+            </value>
+        </nomatch>
+
     </Operation>
 
-    <!-- Temperature -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="CAS_ChemfuelCooler" or defName="CAS_ChemfuelHeater"]/designationCategory</xpath>
-        <value>
-            <designationCategory>Temperature</designationCategory>
-        </value>
+    <!-- Processing Things -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_ProcessingProduction"]</xpath>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="CA_ChemfuelCrematorium" or defName="CA_ChemfuelSmelter"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Ferny_ProcessingProduction</designationCategory>
+            </value>
+        </match>
+
+        <nomatch Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="CA_ChemfuelCrematorium" or defName="CA_ChemfuelSmelter"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Production</designationCategory>
+            </value>
+        </nomatch>
+
+    </Operation>
+
+    <!-- Temperature: Heating -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_Heating"]</xpath>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="CAS_ChemfuelHeater"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Ferny_Heating</designationCategory>
+            </value>
+        </match>
+
+        <nomatch Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="CAS_ChemfuelHeater"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Temperature</designationCategory>
+            </value>
+        </nomatch>
+
+    </Operation>
+
+    <!-- Temperature: Cooling -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_Cooling"]</xpath>
+
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="CAS_ChemfuelCooler"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Ferny_Cooling</designationCategory>
+            </value>
+        </match>
+
+        <nomatch Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="CAS_ChemfuelCooler"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Temperature</designationCategory>
+            </value>
+        </nomatch>
+        
     </Operation>
 
     <!-- Drill -->
@@ -65,10 +126,8 @@
     </Operation>
 
     <!-- Lights -->
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Lighting Category</li>
-        </mods>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/DesignationCategoryDef[defName="Ferny_Lighting"]</xpath>
 
         <match Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="CA_Sunlamp" or defName="CA_SunlampDark" or defName="CA_ChemfuelStandingLamp"
