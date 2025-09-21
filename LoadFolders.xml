@@ -40,7 +40,7 @@
         <li IfModActive="VanillaExpanded.VBrewE">Mod Patches/Vanilla Expanded/VE Brewing</li>
         <li IfModActive="VanillaExpanded.VChemfuelE">Mod Patches/Vanilla Expanded/VE Chemfuel</li>
         <li IfModActive="VanillaExpanded.HelixienGas">Mod Patches/Vanilla Expanded/VE Helixien Gas</li>
-        <li IfModActive="VanillaExpanded.VNutrientE">Mod Patches/Vanilla Expanded/VE Nutrient Paste</li>
+        <!-- <li IfModActive="VanillaExpanded.VNutrientE">Mod Patches/Vanilla Expanded/VE Nutrient Paste</li> -->
         <li IfModActive="VanillaExpanded.VCookEStews">Mod Patches/Vanilla Expanded/VE Stews</li>
         <li IfModActive="VanillaExpanded.Temperature">Mod Patches/Vanilla Expanded/VE Temperature</li>
         <li IfModActive="OskarPotocki.VanillaVehiclesExpanded">Mod Patches/Vanilla Expanded/VE Vehicles</li>
