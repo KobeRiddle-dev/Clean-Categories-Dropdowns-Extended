@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-    <!-- Gas Turbine -->
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="CA_GasTurbine"]</xpath>
-        <value>
-            <designatorDropdown>KobeRiddle_GeneratorsGas</designatorDropdown>
-        </value>
-    </Operation>
-
     <!-- Wood Turbine -->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="CA_WoodFiredTurbine"]</xpath>
