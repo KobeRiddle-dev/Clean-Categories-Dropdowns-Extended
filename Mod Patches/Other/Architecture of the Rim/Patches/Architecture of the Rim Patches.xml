@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-    <!-- Rafters -->
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[@ParentName="BaseRafterBuilding"]</xpath>
-        <value>
-            <designatorDropdown>KobeRiddle_Rafters</designatorDropdown>
-        </value>
-    </Operation>
-
     <!-- Simple Eaves -->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="AR_Eave"
@@ -22,7 +14,7 @@
 
     <!-- Stony Eaves -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="AR_Eave"
+        <xpath>Defs/ThingDef[defName="AR_EaveStony"
             or defName="AR_EaveStony_half"
             or defName="AR_StonyEaveInnerCornerSmall"
             or defName="AR_StonyEaveOuterCornerSmall"
