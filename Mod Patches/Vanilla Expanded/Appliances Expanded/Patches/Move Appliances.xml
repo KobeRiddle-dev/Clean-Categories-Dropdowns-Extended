@@ -100,19 +100,17 @@
                 <designationCategory>Temperature</designationCategory>
             </value>
         </nomatch>
-        
+
     </Operation>
 
     <!-- Drill -->
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Environment Category</li>
-        </mods>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="Ferny_ProductionInfrastructure"]/designationCategory</xpath>
 
         <match Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="SCP_ChemDrill"]/designationCategory</xpath>
             <value>
-                <designationCategory>Ferny_Environment</designationCategory>
+                <designationCategory>Ferny_ProductionInfrastructure</designationCategory>
             </value>
         </match>
 
