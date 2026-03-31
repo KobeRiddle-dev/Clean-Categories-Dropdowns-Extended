@@ -10,16 +10,10 @@
     </Operation>
 
     <!-- Map Vehicle Connectors -->
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="VMF_PipeConnector"]</xpath>
-        <value>
-            <designatorDropdown>KobeRiddle_MapVehicleConnectors</designatorDropdown>
-        </value>
-    </Operation>
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="VMF_WirelessTransmitter" or defName="VMF_WirelessReceiver"]/designatorDropdown</xpath>
         <value>
-            <designatorDropdown>KobeRiddle_MapVehicleConnectors</designatorDropdown>
+            <designatorDropdown>KobeRiddle_MapVehicleWirelessConnectors</designatorDropdown>
         </value>
     </Operation>
 
