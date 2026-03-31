@@ -11,10 +11,6 @@
     </DesignatorDropdownGroupDef>
     
     <DesignatorDropdownGroupDef>
-        <defName>KobeRiddle_MapVehicleWirelessConnectors</defName>
-    </DesignatorDropdownGroupDef>
-    
-    <DesignatorDropdownGroupDef>
         <defName>KobeRiddle_MapVehiclePayloadUpgrades</defName>
     </DesignatorDropdownGroupDef>
     
