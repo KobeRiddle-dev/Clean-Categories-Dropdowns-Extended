@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Clean Categories: Dropdowns *Extended*</name>
+	<name>Basic Dropdowns - Extended</name>
 	<author>Kobe Riddle, ferny</author>
 	<packageId>KobeRiddle.CategoriesDropdownsExtended</packageId>
 	<supportedVersions>
@@ -14,7 +14,7 @@
 		</li>
 		<li>
 			<packageId>Ferny.CategoriesDropdowns</packageId>
-			<displayName>Clean Categories: Dropdowns</displayName>
+			<displayName>Basic Dropdowns</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3455529827</steamWorkshopUrl>
 		</li>
 	</modDependencies>
