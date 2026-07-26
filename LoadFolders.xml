@@ -14,7 +14,7 @@
         <li IfModActive="sbz.GravshipStorage">Mod Patches/Adaptive Storage Mods/Gravship Storage</li>
         <li IfModActive="sbz.NeatStorage">Mod Patches/Adaptive Storage Mods/Neat Storage</li>
         <li IfModActive="Phaneron.Basic.Storage">Mod Patches/Adaptive Storage Mods/Phaneron's Basic Storage</li>
-        
+
         <!-- Other Mod Patches (alphabetical by folder name) -->
         <li IfModActive="Nightmare.Aquariums">Mod Patches/Other/Aquariums</li>
         <li IfModActive="Eeg.Architecture">Mod Patches/Other/Architecture of the Rim</li>
@@ -53,10 +53,11 @@
         <li IfModActive="VanillaExpanded.VFEPower">Mod Patches/Vanilla Expanded/VFE Power</li>
         <li IfModActive="VanillaExpanded.VFEProduction">Mod Patches/Vanilla Expanded/VFE Production</li>
         <li IfModActive="VanillaExpanded.VFESpacer">Mod Patches/Vanilla Expanded/VFE Spacer</li>
-        
+
         <!-- Combo mod patches (alphabetical by folder name) -->
         <li IfModActiveAll="Adaptive.Storage.Neolithic,Phaneron.Basic.Storage">Mod Combo Patches/Adaptive Storage Neolithic Storage + Phaneron's Basic Storage</li>
         <li IfModActiveAll="ScpChemfuel.Appliances,VanillaExpanded.HelixienGas">Mod Combo Patches/Appliances Expanded + Helixien Gas</li>
+        <li IfModActiveAll="ScpChemfuel.Appliances,VanillaExpanded.VCookE">Mod Combo Patches/Appliances Expanded + Helixien Gas</li>
         <li IfModActiveAll="sbz.NeatStorage,Phaneron.Basic.Storage">Mod Combo Patches/Neat Storage + Phaneron's Basic Storage</li>
         <li IfModActiveAll="Rebuild.Cotr.DoorsAndCorners,VanillaExpanded.VFEArchitect">Mod Combo Patches/Rebuild Doors and Corners + VFE Architect</li>
         <li IfModActiveAll="OskarPotocki.VFE.Medieval2,VanillaExpanded.VFEProduction">Mod Combo Patches/VFE Medieval 2 + VFE Production</li>
