@@ -5,13 +5,28 @@
     <Operation Class="PatchOperationConditional">
         <xpath>Defs/DesignationCategoryDef[defName="Ferny_Doors"]</xpath>
 
-        <nomatch Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName="VFEArch_SingleDoor" or defName="VFEArch_SingleDoor_Flipped"]/designatorDropdown</xpath>
-            <value>
-                <designatorDropdown>Ferny_Doors</designatorDropdown>
-            </value>
-        </nomatch>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <!-- Add vanilla door to Ferny_Doors if not already in a dropdown -->
+                <li Class="PatchOperationConditional">
+                    <xpath>Defs/ThingDef[defName="Door"]/designatorDropdown</xpath>
+                    <nomatch Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[defName="Door"]</xpath>
+                        <value>
+                            <designatorDropdown>Ferny_Doors</designatorDropdown>
+                        </value>
+                    </nomatch>
+                </li>
 
+                <!-- Add VFE Architect single doors to Ferny_Doors -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VFEArch_SingleDoor" or defName="VFEArch_SingleDoor_Flipped"]/designatorDropdown</xpath>
+                    <value>
+                        <designatorDropdown>Ferny_Doors</designatorDropdown>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
     </Operation>
 
     <!-- Fences -->

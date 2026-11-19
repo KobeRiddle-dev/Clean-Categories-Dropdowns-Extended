@@ -2,6 +2,18 @@
 <Patch>
 
     <!-- Doors -->
+
+    <!-- Add vanilla door to Ferny_Doors if not there already -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="Door"]/designatorDropdown</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Door"]</xpath>
+            <value>
+                <designatorDropdown>Ferny_Doors</designatorDropdown>
+            </value>
+        </nomatch>
+    </Operation>
+
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="RB_DoubleDoor"]</xpath>
         <value>
