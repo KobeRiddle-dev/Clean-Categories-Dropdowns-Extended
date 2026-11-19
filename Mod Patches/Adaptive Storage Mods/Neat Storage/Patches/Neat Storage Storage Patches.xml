@@ -3,7 +3,7 @@
 
     <!-- Crates -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="sbz_TallCrate" or defName="sbz_Crate" or defName="sbz_MidCrate" or defName="sbz_SmallCrate"]</xpath>
+        <xpath>Defs/ThingDef[defName="sbz_Crate" or defName="sbz_MidCrate" or defName="sbz_SmallCrate" or defName="sbz_TallCrate"]</xpath>
         <value>
             <designatorDropdown>KobeRiddle_NeatCrates</designatorDropdown>
         </value>
