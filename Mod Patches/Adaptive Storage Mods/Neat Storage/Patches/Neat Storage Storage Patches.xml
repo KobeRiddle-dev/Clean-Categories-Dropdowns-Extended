@@ -3,7 +3,7 @@
 
     <!-- Crates -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="sbz_Crate" or defName="sbz_MidCrate" or defName="sbz_SmallCrate"]</xpath>
+        <xpath>Defs/ThingDef[defName="sbz_TallCrate" or defName="sbz_Crate" or defName="sbz_MidCrate" or defName="sbz_SmallCrate"]</xpath>
         <value>
             <designatorDropdown>KobeRiddle_NeatCrates</designatorDropdown>
         </value>
@@ -11,7 +11,7 @@
 
     <!-- Pallets -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="sbz_Pallet" or defName="sbz_MiniPallet"]</xpath>
+        <xpath>Defs/ThingDef[defName="sbz_Pallet" or defName="sbz_MiniPallet" or defName="sbz_HalfPallet"]</xpath>
         <value>
             <designatorDropdown>KobeRiddle_Pallets</designatorDropdown>
         </value>
