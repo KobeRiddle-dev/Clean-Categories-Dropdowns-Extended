@@ -29,6 +29,13 @@
         </value>
     </Operation>
 
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RB_ReinforcedClerestoryWall"]/uiOrder</xpath>
+        <value>
+            <uiOrder>2003</uiOrder>
+        </value>
+    </Operation>
+
     <!-- Glass Walls -->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="RB_GlassWall" or defName="RB_ReinforcedGlassWall"]</xpath>

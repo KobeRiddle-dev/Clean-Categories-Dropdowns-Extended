@@ -17,6 +17,38 @@
         </value>
     </Operation>
 
+    <!-- Dropdown item order -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="BasicStoragePalletSmall"]/uiOrder</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="BasicStoragePalletSmall"]/uiOrder</xpath>
+            <value>
+                <uiOrder>280</uiOrder>
+            </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="BasicStoragePalletSmall"]</xpath>
+            <value>
+                <uiOrder>280</uiOrder>
+            </value>
+        </nomatch>
+    </Operation>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="BasicStoragePalletLarge"]/uiOrder</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="BasicStoragePalletLarge"]/uiOrder</xpath>
+            <value>
+                <uiOrder>290</uiOrder>
+            </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="BasicStoragePalletLarge"]</xpath>
+            <value>
+                <uiOrder>290</uiOrder>
+            </value>
+        </nomatch>
+    </Operation>
+
     <!-- Food Storages -->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="BasicStorageFoodBarrel" or defName="BasicStorageFoodCupboard"]</xpath>

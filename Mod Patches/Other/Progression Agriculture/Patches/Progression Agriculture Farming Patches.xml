@@ -9,4 +9,18 @@
         </value>
     </Operation>
 
+    <!-- Dropdown item order -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SeedPackingBench"]/uiOrder</xpath>
+        <value>
+            <uiOrder>2001</uiOrder>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SeedPackingCraftingSpot"]/uiOrder</xpath>
+        <value>
+            <uiOrder>2520</uiOrder>
+        </value>
+    </Operation>
+
 </Patch>
