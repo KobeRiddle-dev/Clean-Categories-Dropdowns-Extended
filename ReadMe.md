@@ -144,12 +144,12 @@ Feedback is welcome! I want the groupings to be as intuitive as possible, so if 
 
 ### Neat Storage
 
-- Small Crate, Medium Crate, Large Crate -> Neat Crates
+- Small Crate, Medium Crate, Large Crate, Tall Crate -> Neat Crates
 - Display Cabinet (2x1), Display Cabinet (2x2) -> Display Cabinets
 - Display Shelf (1x1), Display Shelf (1x2), Display Shelf (2x1), Display Shelf (2x2), Double Display Shelf -> Display Shelves
 - Hanger Shelf (2x1), Hanger Shelf (2x2) -> Hanger Shelves
 - Meat Hook, Meat Hook -> Meat Hooks
-- Pallet, Mini Pallet -> Pallets
+- Pallet, Mini Pallet, Half Pallet -> Pallets
 - Open Shelf -> Shelves
 - Textile Rack -> Textile Storages
 - Weapon Rack, Horizontal Weapon Rack, Vertical Weapon Rack -> Weapon Racks
